@@ -1,0 +1,422 @@
+22:32:58.221  [main] INFO  api.tests.UserTests - ***** Finished test_createUser *****
+22:32:58.234  [main] INFO  api.tests.UserTests - ********************************************
+22:32:58.238  [main] INFO  api.tests.UserTests - ***** Starting test_getUserByName *****
+22:33:00.110  [main] INFO  api.tests.UserTests - Response body: {"id":1652280702,"username":"donovan.schaden","firstName":"Patience","lastName":"Hyatt","email":"foster.heidenreich@example.com","password":"gg3jzzyouh8uqrg","phone":"746-427-4793","userStatus":0}
+22:33:00.187  [main] INFO  api.tests.UserTests - ***** Finished test_getUserByName *****
+22:33:00.214  [main] INFO  api.tests.UserTests - ********************************************
+22:33:00.214  [main] INFO  api.tests.UserTests - ***** Starting test_updateUser *****
+22:33:01.935  [main] INFO  api.tests.UserTests - ***** Finished test_updateUser *****
+22:33:01.936  [main] INFO  api.tests.UserTests - ********************************************
+22:33:04.094  [main] INFO  api.tests.UserTests - ********************************************
+22:33:04.095  [main] INFO  api.tests.UserTests - ********* Starting test_loginUser **********
+22:33:06.880  [main] INFO  api.tests.UserTests - Asserting that the response matches the JSON schema from C:\Users\ubaidullah.bawa\eclipse-workspace\PetStoreAutomation\test-data\getUserLoginSchema.json
+22:33:06.885  [main] INFO  api.tests.UserTests - ***** Finished test_loginUser***************
+22:33:06.885  [main] INFO  api.tests.UserTests - ********************************************
+22:33:06.890  [main] INFO  api.tests.UserTests - ********************************************
+22:33:06.891  [main] INFO  api.tests.UserTests - ******** Starting test_logoutUser***********
+22:33:08.905  [main] INFO  api.tests.UserTests - ***** Finished test_logoutUser *****
+22:33:08.905  [main] INFO  api.tests.UserTests - ************************************
+23:05:58.725  [main] INFO  api.tests.UserTests2 - ****************************************************************
+23:05:58.729  [main] INFO  api.tests.UserTests2 - ***********<<<<<Starting test_createUser>>>>>*******************
+23:05:58.729  [main] INFO  api.tests.UserTests2 - Sending POST request to create a new user
+23:06:02.772  [main] INFO  api.tests.UserTests2 - Asserting response field types
+23:06:03.619  [main] INFO  api.tests.UserTests2 - ***** Finished test_createUser *****
+23:06:03.619  [main] INFO  api.tests.UserTests2 - ********************************************
+23:06:03.627  [main] INFO  api.tests.UserTests2 - ***** Starting test_getUserByName *****
+23:06:05.640  [main] INFO  api.tests.UserTests2 - Response body: {"code":1,"type":"error","message":"User not found"}
+23:06:05.644  [main] ERROR api.tests.UserTests2 - Unexpected exception occurred: JSONObject["id"] not found.
+23:06:05.645  [main] INFO  api.tests.UserTests2 - ***** Finished test_getUserByName *****
+23:06:05.682  [main] INFO  api.tests.UserTests2 - ***** Starting test_getUserByName *****
+23:06:08.714  [main] INFO  api.tests.UserTests2 - Response body: {"id":679449777,"username":"todd.walter","firstName":"Ramona","lastName":"Cole","email":"maryln.heathcote@example.com","password":"v7slsd0rx","phone":"(359) 889-7572","userStatus":0}
+23:06:08.787  [main] INFO  api.tests.UserTests2 - ***** Finished test_getUserByName *****
+23:06:08.792  [main] INFO  api.tests.UserTests2 - ********************************************
+23:06:08.793  [main] INFO  api.tests.UserTests2 - ***** Starting test_updateUser *****
+23:06:10.813  [main] INFO  api.tests.UserTests2 - ***** Finished test_updateUser *****
+23:06:10.813  [main] INFO  api.tests.UserTests2 - ********************************************
+23:06:15.980  [main] INFO  api.tests.UserTests2 - ********************************************
+23:06:15.981  [main] INFO  api.tests.UserTests2 - ********* Starting test_loginUser **********
+23:06:18.379  [main] INFO  api.tests.UserTests2 - Asserting that the response matches the JSON schema from C:\Users\ubaidullah.bawa\eclipse-workspace\PetStoreAutomation\test-data\getUserLoginSchema.json
+23:06:18.406  [main] INFO  api.tests.UserTests2 - ***** Finished test_loginUser***************
+23:06:18.406  [main] INFO  api.tests.UserTests2 - ********************************************
+23:06:18.413  [main] INFO  api.tests.UserTests2 - ********************************************
+23:06:18.414  [main] INFO  api.tests.UserTests2 - ******** Starting test_logoutUser***********
+23:06:20.488  [main] INFO  api.tests.UserTests2 - ***** Finished test_logoutUser *****
+23:06:20.489  [main] INFO  api.tests.UserTests2 - ************************************
+23:06:56.632  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:06:56.638  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:06:57.089  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:06:57.089  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:06:57.111  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:06:57.112  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:06:57.152  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:06:57.153  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:06:57.182  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:06:57.183  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:06:57.199  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:06:57.200  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:06:57.217  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:06:57.218  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:06:57.233  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:06:57.233  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:06:57.252  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:06:57.252  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:06:57.266  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:06:57.267  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:06:57.280  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:06:57.281  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:06:57.296  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:06:57.297  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:06:57.308  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:06:57.309  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:06:57.324  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:06:57.325  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:06:57.341  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:06:57.342  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:06:57.358  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:06:57.359  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:06:57.374  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:06:57.375  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:06:57.390  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:06:57.392  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:06:57.409  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:06:57.410  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:06:57.423  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:06:57.424  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:06:57.436  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:06:57.436  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:06:57.446  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:06:57.447  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:06:57.460  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:06:57.460  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:06:57.525  [main] INFO  api.tests.DDTests - ***************Starting DDT create user tests***************
+23:07:01.187  [main] INFO  api.tests.DDTests - ***************Finished DDT create user tests***************
+23:07:01.191  [main] INFO  api.tests.DDTests - ***************Starting DDT create user tests***************
+23:07:03.257  [main] INFO  api.tests.DDTests - ***************Finished DDT create user tests***************
+23:07:03.282  [main] INFO  api.tests.DDTests - ***************Starting DDT create user tests***************
+23:07:07.849  [main] INFO  api.tests.DDTests - ***************Finished DDT create user tests***************
+23:07:07.886  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:07:07.890  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:07:07.958  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:07:07.962  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:07:08.008  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:07:08.012  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:07:08.071  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:07:08.076  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:07:17.438  [main] INFO  api.tests.UserTests - ****************************************************************
+23:07:17.438  [main] INFO  api.tests.UserTests - ***********<<<<<Starting test_createUser>>>>>*******************
+23:07:17.438  [main] INFO  api.tests.UserTests - Sending POST request to create a new user
+23:07:19.588  [main] INFO  api.tests.UserTests - Asserting response field types
+23:07:22.410  [main] INFO  api.tests.UserTests - ***** Finished test_createUser *****
+23:07:22.410  [main] INFO  api.tests.UserTests - ********************************************
+23:07:22.426  [main] INFO  api.tests.UserTests - ***** Starting test_getUserByName *****
+23:07:24.645  [main] INFO  api.tests.UserTests - Response body: {"id":1568672342,"username":"ling.carter","firstName":"Heath","lastName":"Towne","email":"lashay.stehr@example.com","password":"2q2yjc3o","phone":"(382) 380-6951","userStatus":0}
+23:07:24.946  [main] INFO  api.tests.UserTests - ***** Finished test_getUserByName *****
+23:07:24.956  [main] INFO  api.tests.UserTests - ********************************************
+23:07:24.956  [main] INFO  api.tests.UserTests - ***** Starting test_updateUser *****
+23:07:26.956  [main] INFO  api.tests.UserTests - ***** Finished test_updateUser *****
+23:07:26.956  [main] INFO  api.tests.UserTests - ********************************************
+23:07:33.309  [main] INFO  api.tests.UserTests - ********************************************
+23:07:33.310  [main] INFO  api.tests.UserTests - ********* Starting test_loginUser **********
+23:07:35.357  [main] INFO  api.tests.UserTests - Asserting that the response matches the JSON schema from C:\Users\ubaidullah.bawa\eclipse-workspace\PetStoreAutomation\test-data\getUserLoginSchema.json
+23:07:35.376  [main] INFO  api.tests.UserTests - ***** Finished test_loginUser***************
+23:07:35.376  [main] INFO  api.tests.UserTests - ********************************************
+23:07:35.386  [main] INFO  api.tests.UserTests - ********************************************
+23:07:35.388  [main] INFO  api.tests.UserTests - ******** Starting test_logoutUser***********
+23:07:37.518  [main] INFO  api.tests.UserTests - ***** Finished test_logoutUser *****
+23:07:37.518  [main] INFO  api.tests.UserTests - ************************************
+23:07:37.708  [main] INFO  api.tests.UserTests2 - ****************************************************************
+23:07:37.708  [main] INFO  api.tests.UserTests2 - ***********<<<<<Starting test_createUser>>>>>*******************
+23:07:37.708  [main] INFO  api.tests.UserTests2 - Sending POST request to create a new user
+23:07:39.458  [main] INFO  api.tests.UserTests2 - Asserting response field types
+23:07:39.538  [main] INFO  api.tests.UserTests2 - ***** Finished test_createUser *****
+23:07:39.541  [main] INFO  api.tests.UserTests2 - ********************************************
+23:07:39.550  [main] INFO  api.tests.UserTests2 - ***** Starting test_getUserByName *****
+23:07:41.336  [main] INFO  api.tests.UserTests2 - Response body: {"code":1,"type":"error","message":"User not found"}
+23:07:41.336  [main] ERROR api.tests.UserTests2 - Unexpected exception occurred: JSONObject["id"] not found.
+23:07:41.336  [main] INFO  api.tests.UserTests2 - ***** Finished test_getUserByName *****
+23:07:41.351  [main] INFO  api.tests.UserTests2 - ***** Starting test_getUserByName *****
+23:07:43.250  [main] INFO  api.tests.UserTests2 - Response body: {"code":1,"type":"error","message":"User not found"}
+23:07:43.251  [main] ERROR api.tests.UserTests2 - Unexpected exception occurred: JSONObject["id"] not found.
+23:07:43.251  [main] INFO  api.tests.UserTests2 - ***** Finished test_getUserByName *****
+23:07:43.256  [main] INFO  api.tests.UserTests2 - ***** Starting test_getUserByName *****
+23:07:45.179  [main] INFO  api.tests.UserTests2 - Response body: {"code":1,"type":"error","message":"User not found"}
+23:07:45.179  [main] ERROR api.tests.UserTests2 - Unexpected exception occurred: JSONObject["id"] not found.
+23:07:45.179  [main] INFO  api.tests.UserTests2 - ***** Finished test_getUserByName *****
+23:07:45.195  [main] INFO  api.tests.UserTests2 - ********************************************
+23:07:45.196  [main] INFO  api.tests.UserTests2 - ***** Starting test_updateUser *****
+23:07:47.556  [main] INFO  api.tests.UserTests2 - ***** Finished test_updateUser *****
+23:07:47.556  [main] INFO  api.tests.UserTests2 - ********************************************
+23:07:54.456  [main] INFO  api.tests.UserTests2 - ********************************************
+23:07:54.456  [main] INFO  api.tests.UserTests2 - ********* Starting test_loginUser **********
+23:07:56.627  [main] INFO  api.tests.UserTests2 - Asserting that the response matches the JSON schema from C:\Users\ubaidullah.bawa\eclipse-workspace\PetStoreAutomation\test-data\getUserLoginSchema.json
+23:07:56.645  [main] INFO  api.tests.UserTests2 - ***** Finished test_loginUser***************
+23:07:56.645  [main] INFO  api.tests.UserTests2 - ********************************************
+23:07:56.655  [main] INFO  api.tests.UserTests2 - ********************************************
+23:07:56.656  [main] INFO  api.tests.UserTests2 - ******** Starting test_logoutUser***********
+23:07:59.176  [main] INFO  api.tests.UserTests2 - ***** Finished test_logoutUser *****
+23:07:59.178  [main] INFO  api.tests.UserTests2 - ************************************
+23:09:15.406  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:09:15.411  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:09:15.814  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:09:15.815  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:09:15.836  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:09:15.837  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:09:15.872  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:09:15.872  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:09:15.894  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:09:15.895  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:09:15.913  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:09:15.914  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:09:15.931  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:09:15.933  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:09:15.948  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:09:15.953  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:09:15.969  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:09:15.970  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:09:15.985  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:09:15.986  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:09:16.003  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:09:16.003  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:09:16.016  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:09:16.017  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:09:16.029  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:09:16.030  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:09:16.049  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:09:16.050  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:09:16.063  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:09:16.064  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:09:16.076  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:09:16.077  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:09:16.091  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:09:16.092  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:09:16.104  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:09:16.105  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:09:16.114  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:09:16.115  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:09:16.125  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:09:16.126  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:09:16.137  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:09:16.138  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:09:16.153  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:09:16.154  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:09:16.168  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:09:16.169  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:09:16.219  [main] INFO  api.tests.DDTests - ***************Starting DDT create user tests***************
+23:09:19.828  [main] INFO  api.tests.DDTests - ***************Finished DDT create user tests***************
+23:09:19.833  [main] INFO  api.tests.DDTests - ***************Starting DDT create user tests***************
+23:09:21.501  [main] INFO  api.tests.DDTests - ***************Finished DDT create user tests***************
+23:09:21.507  [main] INFO  api.tests.DDTests - ***************Starting DDT create user tests***************
+23:09:23.479  [main] INFO  api.tests.DDTests - ***************Finished DDT create user tests***************
+23:09:23.502  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:09:23.504  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:09:23.525  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:09:23.527  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:09:23.560  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:09:23.561  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:09:23.581  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:09:23.582  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:09:29.808  [main] INFO  api.tests.UserTests - ****************************************************************
+23:09:29.808  [main] INFO  api.tests.UserTests - ***********<<<<<Starting test_createUser>>>>>*******************
+23:09:29.808  [main] INFO  api.tests.UserTests - Sending POST request to create a new user
+23:09:31.939  [main] INFO  api.tests.UserTests - Asserting response field types
+23:09:34.049  [main] INFO  api.tests.UserTests - ***** Finished test_createUser *****
+23:09:34.051  [main] INFO  api.tests.UserTests - ********************************************
+23:09:34.063  [main] INFO  api.tests.UserTests - ***** Starting test_getUserByName *****
+23:09:35.649  [main] INFO  api.tests.UserTests - Response body: {"code":1,"type":"error","message":"User not found"}
+23:09:35.649  [main] ERROR api.tests.UserTests - Unexpected exception occurred: JSONObject["id"] not found.
+23:09:35.649  [main] INFO  api.tests.UserTests - ***** Finished test_getUserByName *****
+23:09:35.674  [main] INFO  api.tests.UserTests - ***** Starting test_getUserByName *****
+23:09:37.408  [main] INFO  api.tests.UserTests - Response body: {"id":1652280702,"username":"harley.gulgowski","firstName":"Nikita","lastName":"Hodkiewicz","email":"roxanne.thompson@example.com","password":"pnwycgdbce1fvh","phone":"417-258-8056","userStatus":0}
+23:09:37.699  [main] INFO  api.tests.UserTests - ***** Finished test_getUserByName *****
+23:09:37.706  [main] INFO  api.tests.UserTests - ********************************************
+23:09:37.706  [main] INFO  api.tests.UserTests - ***** Starting test_updateUser *****
+23:09:39.235  [main] INFO  api.tests.UserTests - ***** Finished test_updateUser *****
+23:09:39.235  [main] INFO  api.tests.UserTests - ********************************************
+23:09:40.926  [main] INFO  api.tests.UserTests - ********************************************
+23:09:40.926  [main] INFO  api.tests.UserTests - ********* Starting test_loginUser **********
+23:09:42.879  [main] INFO  api.tests.UserTests - Asserting that the response matches the JSON schema from C:\Users\ubaidullah.bawa\eclipse-workspace\PetStoreAutomation\test-data\getUserLoginSchema.json
+23:09:42.900  [main] INFO  api.tests.UserTests - ***** Finished test_loginUser***************
+23:09:42.900  [main] INFO  api.tests.UserTests - ********************************************
+23:09:42.912  [main] INFO  api.tests.UserTests - ********************************************
+23:09:42.912  [main] INFO  api.tests.UserTests - ******** Starting test_logoutUser***********
+23:09:44.593  [main] INFO  api.tests.UserTests - ***** Finished test_logoutUser *****
+23:09:44.593  [main] INFO  api.tests.UserTests - ************************************
+23:09:44.717  [main] INFO  api.tests.UserTests2 - ****************************************************************
+23:09:44.717  [main] INFO  api.tests.UserTests2 - ***********<<<<<Starting test_createUser>>>>>*******************
+23:09:44.717  [main] INFO  api.tests.UserTests2 - Sending POST request to create a new user
+23:09:46.825  [main] INFO  api.tests.UserTests2 - Asserting response field types
+23:09:46.900  [main] INFO  api.tests.UserTests2 - ***** Finished test_createUser *****
+23:09:46.900  [main] INFO  api.tests.UserTests2 - ********************************************
+23:09:46.908  [main] INFO  api.tests.UserTests2 - ***** Starting test_getUserByName *****
+23:09:48.981  [main] INFO  api.tests.UserTests2 - Response body: {"id":1619752179,"username":"abram.reilly","firstName":"Dante","lastName":"Torphy","email":"johanna.quigley@example.com","password":"syumels8i0o","phone":"(207) 700-8913","userStatus":0}
+23:09:49.203  [main] INFO  api.tests.UserTests2 - ***** Finished test_getUserByName *****
+23:09:49.203  [main] INFO  api.tests.UserTests2 - ********************************************
+23:09:49.211  [main] INFO  api.tests.UserTests2 - ***** Starting test_updateUser *****
+23:09:51.345  [main] INFO  api.tests.UserTests2 - ***** Finished test_updateUser *****
+23:09:51.345  [main] INFO  api.tests.UserTests2 - ********************************************
+23:09:53.917  [main] INFO  api.tests.UserTests2 - ********************************************
+23:09:53.917  [main] INFO  api.tests.UserTests2 - ********* Starting test_loginUser **********
+23:09:55.930  [main] INFO  api.tests.UserTests2 - Asserting that the response matches the JSON schema from C:\Users\ubaidullah.bawa\eclipse-workspace\PetStoreAutomation\test-data\getUserLoginSchema.json
+23:09:55.942  [main] INFO  api.tests.UserTests2 - ***** Finished test_loginUser***************
+23:09:55.942  [main] INFO  api.tests.UserTests2 - ********************************************
+23:09:55.953  [main] INFO  api.tests.UserTests2 - ********************************************
+23:09:55.955  [main] INFO  api.tests.UserTests2 - ******** Starting test_logoutUser***********
+23:09:58.162  [main] INFO  api.tests.UserTests2 - ***** Finished test_logoutUser *****
+23:09:58.162  [main] INFO  api.tests.UserTests2 - ************************************
+23:25:53.566  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:25:53.571  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:25:53.961  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:25:53.962  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:25:53.983  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:25:53.983  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:25:54.015  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:25:54.016  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:25:54.040  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:25:54.041  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:25:54.068  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:25:54.069  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:25:54.086  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:25:54.087  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:25:54.102  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:25:54.103  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:25:54.118  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:25:54.119  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:25:54.136  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:25:54.138  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:25:54.149  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:25:54.150  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:25:54.160  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:25:54.161  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:25:54.176  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:25:54.176  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:25:54.191  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:25:54.193  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:25:54.208  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:25:54.209  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:25:54.222  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:25:54.223  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:25:54.235  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:25:54.236  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:25:54.252  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:25:54.253  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:25:54.266  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:25:54.267  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:25:54.279  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:25:54.280  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:25:54.290  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:25:54.290  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:25:54.301  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:25:54.302  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:25:54.313  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:25:54.314  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:25:54.354  [main] INFO  api.tests.DDTests - ***************Starting DDT create user tests***************
+23:25:58.595  [main] INFO  api.tests.DDTests - ***************Finished DDT create user tests***************
+23:25:58.598  [main] INFO  api.tests.DDTests - ***************Starting DDT create user tests***************
+23:26:00.853  [main] INFO  api.tests.DDTests - ***************Finished DDT create user tests***************
+23:26:00.855  [main] INFO  api.tests.DDTests - ***************Starting DDT create user tests***************
+23:26:02.798  [main] INFO  api.tests.DDTests - ***************Finished DDT create user tests***************
+23:26:02.811  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:26:02.813  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:26:02.832  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:26:02.833  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:26:02.851  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:26:02.851  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:26:02.864  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:26:02.865  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:26:12.670  [main] INFO  api.tests.UserTests - ****************************************************************
+23:26:12.670  [main] INFO  api.tests.UserTests - ***********<<<<<Starting test_createUser>>>>>*******************
+23:26:12.670  [main] INFO  api.tests.UserTests - Sending POST request to create a new user
+23:26:15.007  [main] INFO  api.tests.UserTests - Asserting response field types
+23:26:15.933  [main] INFO  api.tests.UserTests - ***** Finished test_createUser *****
+23:26:15.933  [main] INFO  api.tests.UserTests - ********************************************
+23:26:15.941  [main] INFO  api.tests.UserTests - ***** Starting test_getUserByName *****
+23:26:15.942  [main] INFO  api.tests.UserTests - ***** Starting test_getUserByName *****
+23:26:15.943  [main] INFO  api.tests.UserTests - ***** Starting test_getUserByName *****
+23:26:21.055  [main] INFO  api.tests.UserTests - ********************************************
+23:26:21.055  [main] INFO  api.tests.UserTests - ********* Starting test_loginUser **********
+23:26:23.202  [main] INFO  api.tests.UserTests - Asserting that the response matches the JSON schema from C:\Users\ubaidullah.bawa\eclipse-workspace\PetStoreAutomation\test-data\getUserLoginSchema.json
+23:26:23.209  [main] INFO  api.tests.UserTests - ***** Finished test_loginUser***************
+23:26:23.209  [main] INFO  api.tests.UserTests - ********************************************
+23:26:23.210  [main] INFO  api.tests.UserTests - ********************************************
+23:26:23.210  [main] INFO  api.tests.UserTests - ******** Starting test_logoutUser***********
+23:26:23.210  [main] INFO  api.tests.UserTests - ***** Finished test_logoutUser *****
+23:26:23.211  [main] INFO  api.tests.UserTests - ************************************
+23:28:26.428  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:28:26.432  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:28:26.846  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:28:26.847  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:28:26.867  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:28:26.868  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:28:26.906  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:28:26.907  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:28:26.936  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:28:26.937  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:28:26.954  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:28:26.955  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:28:26.971  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:28:26.972  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:28:26.989  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:28:26.989  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:28:27.004  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:28:27.005  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:28:27.019  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:28:27.020  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:28:27.038  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:28:27.039  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:28:27.053  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:28:27.054  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:28:27.069  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:28:27.070  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:28:27.086  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:28:27.087  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:28:27.102  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:28:27.103  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:28:27.116  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:28:27.117  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:28:27.130  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:28:27.130  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:28:27.142  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:28:27.143  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:28:27.162  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:28:27.166  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:28:27.181  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:28:27.181  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:28:27.191  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:28:27.191  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:28:27.204  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:28:27.205  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:28:27.219  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:28:27.219  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:28:27.282  [main] INFO  api.tests.DDTests - ***************Starting DDT create user tests***************
+23:28:31.066  [main] INFO  api.tests.DDTests - ***************Finished DDT create user tests***************
+23:28:31.070  [main] INFO  api.tests.DDTests - ***************Starting DDT create user tests***************
+23:28:32.806  [main] INFO  api.tests.DDTests - ***************Finished DDT create user tests***************
+23:28:32.810  [main] INFO  api.tests.DDTests - ***************Starting DDT create user tests***************
+23:28:35.170  [main] INFO  api.tests.DDTests - ***************Finished DDT create user tests***************
+23:28:35.182  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:28:35.183  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:28:35.204  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:28:35.204  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:28:35.226  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:28:35.227  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:28:35.247  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:28:35.248  [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:28:42.216  [main] INFO  api.tests.UserTests - ****************************************************************
+23:28:42.217  [main] INFO  api.tests.UserTests - ***********<<<<<Starting test_createUser>>>>>*******************
+23:28:42.217  [main] INFO  api.tests.UserTests - Sending POST request to create a new user
+23:28:44.305  [main] INFO  api.tests.UserTests - Asserting response field types
+23:28:45.159  [main] INFO  api.tests.UserTests - ***** Finished test_createUser *****
+23:28:45.160  [main] INFO  api.tests.UserTests - ********************************************
+23:28:45.163  [main] INFO  api.tests.UserTests - ***** Starting test_getUserByName *****
+23:28:47.365  [main] INFO  api.tests.UserTests - Response body: {"code":1,"type":"error","message":"User not found"}
+23:28:47.366  [main] ERROR api.tests.UserTests - Unexpected exception occurred: JSONObject["id"] not found.
+23:28:47.366  [main] INFO  api.tests.UserTests - ***** Finished test_getUserByName *****
+23:28:47.374  [main] INFO  api.tests.UserTests - ***** Starting test_getUserByName *****
+23:28:49.287  [main] INFO  api.tests.UserTests - Response body: {"code":1,"type":"error","message":"User not found"}
+23:28:49.287  [main] ERROR api.tests.UserTests - Unexpected exception occurred: JSONObject["id"] not found.
+23:28:49.287  [main] INFO  api.tests.UserTests - ***** Finished test_getUserByName *****
+23:28:49.293  [main] INFO  api.tests.UserTests - ***** Starting test_getUserByName *****
+23:28:51.142  [main] INFO  api.tests.UserTests - Response body: {"id":26338900,"username":"penni.leannon","firstName":"Nicholas","lastName":"Morar","email":"devona.daniel@example.com","password":"ltvyyc6cs6","phone":"401.248.6361","userStatus":0}
+23:28:51.221  [main] INFO  api.tests.UserTests - ***** Finished test_getUserByName *****
+23:28:51.225  [main] INFO  api.tests.UserTests - ********************************************
+23:28:51.225  [main] INFO  api.tests.UserTests - ***** Starting test_updateUser *****

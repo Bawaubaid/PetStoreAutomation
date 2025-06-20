@@ -1,0 +1,28 @@
+{
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "$ref": "#/definitions/Welcome7",
+    "definitions": {
+        "Welcome7": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "code": {
+                    "type": "integer"
+                },
+                "type": {
+                    "type": "string"
+                },
+                "message": {
+                    "type": "string",
+                    "format": "integer"
+                }
+            },
+            "required": [
+                "code",
+                "message",
+                "type"
+            ],
+            "title": "Welcome7"
+        }
+    }
+}
