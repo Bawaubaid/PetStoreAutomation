@@ -15,7 +15,7 @@
 </suite>
 
 -->
-
+<!-- Parallel Execution -->
 <suite thread-count="3" parallel="classes" name="Suite">
   <listeners>
 	<listener class-name="api.utilities.ExtentReportManager"></listener>

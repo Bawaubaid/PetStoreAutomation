@@ -2,42 +2,153 @@
 <testng-results retried="3" ignored="0" total="21" passed="18" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-19T13:39:26 IST" name="Suite" finished-at="2025-06-19T13:39:53 IST" duration-ms="26529">
+  <suite started-at="2025-07-05T21:15:50 IST" name="Suite" finished-at="2025-07-05T21:16:08 IST" duration-ms="17863">
     <groups>
     </groups>
-    <test started-at="2025-06-19T13:39:26 IST" name="Test" finished-at="2025-06-19T13:39:53 IST" duration-ms="26529">
+    <test started-at="2025-07-05T21:15:50 IST" name="Test" finished-at="2025-07-05T21:16:08 IST" duration-ms="17863">
       <class name="api.tests.UserTests">
-        <test-method is-config="true" signature="setup()[pri:0, instance:api.tests.UserTests@7ca20101]" started-at="2025-06-19T13:39:27 IST" name="setup" finished-at="2025-06-19T13:39:28 IST" duration-ms="981" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:api.tests.UserTests@4ce1d6d0]" started-at="2025-07-05T21:15:51 IST" name="setup" finished-at="2025-07-05T21:15:51 IST" duration-ms="316" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_createUser()[pri:1, instance:api.tests.UserTests@7ca20101]" started-at="2025-06-19T13:39:28 IST" name="test_createUser" finished-at="2025-06-19T13:39:41 IST" duration-ms="12606" status="PASS">
+        <test-method signature="test_createUser()[pri:1, instance:api.tests.UserTests@4ce1d6d0]" started-at="2025-07-05T21:15:51 IST" name="test_createUser" finished-at="2025-07-05T21:15:57 IST" duration-ms="5557" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_createUser -->
-        <test-method signature="test_getUserByName()[pri:2, instance:api.tests.UserTests@7ca20101]" started-at="2025-06-19T13:39:41 IST" name="test_getUserByName" finished-at="2025-06-19T13:39:42 IST" duration-ms="1563" status="PASS">
+        <test-method signature="test_getUserByName()[pri:2, instance:api.tests.UserTests@4ce1d6d0]" started-at="2025-07-05T21:15:57 IST" name="test_getUserByName" finished-at="2025-07-05T21:15:58 IST" duration-ms="1503" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_getUserByName -->
-        <test-method signature="test_updateUserByName()[pri:3, instance:api.tests.UserTests@7ca20101]" started-at="2025-06-19T13:39:42 IST" name="test_updateUserByName" finished-at="2025-06-19T13:39:44 IST" duration-ms="1531" status="PASS">
+        <test-method signature="test_updateUserByName()[pri:3, instance:api.tests.UserTests@4ce1d6d0]" started-at="2025-07-05T21:15:58 IST" name="test_updateUserByName" finished-at="2025-07-05T21:15:59 IST" duration-ms="1369" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_updateUserByName -->
-        <test-method signature="test_deleteUserByName()[pri:4, instance:api.tests.UserTests@7ca20101]" started-at="2025-06-19T13:39:44 IST" name="test_deleteUserByName" finished-at="2025-06-19T13:39:45 IST" duration-ms="1526" status="PASS">
+        <test-method retried="true" signature="test_deleteUserByName()[pri:4, instance:api.tests.UserTests@4ce1d6d0]" started-at="2025-07-05T21:15:59 IST" name="test_deleteUserByName" finished-at="2025-07-05T21:16:01 IST" duration-ms="1520" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [200] but found [404]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [200] but found [404]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1431)
+at org.testng.Assert.assertEquals(Assert.java:1395)
+at org.testng.Assert.assertEquals(Assert.java:1441)
+at api.tests.UserTests.test_deleteUserByName(UserTests.java:218)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_deleteUserByName -->
-        <test-method signature="test_loginUser()[pri:5, instance:api.tests.UserTests@7ca20101]" started-at="2025-06-19T13:39:45 IST" name="test_loginUser" description="This test verifies that logging in a user returns a 200 status code" finished-at="2025-06-19T13:39:47 IST" duration-ms="1421" status="PASS">
+        <test-method retried="true" signature="test_deleteUserByName()[pri:4, instance:api.tests.UserTests@4ce1d6d0]" started-at="2025-07-05T21:16:01 IST" name="test_deleteUserByName" finished-at="2025-07-05T21:16:02 IST" duration-ms="1432" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [200] but found [404]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [200] but found [404]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1431)
+at org.testng.Assert.assertEquals(Assert.java:1395)
+at org.testng.Assert.assertEquals(Assert.java:1441)
+at api.tests.UserTests.test_deleteUserByName(UserTests.java:218)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_deleteUserByName -->
+        <test-method retried="true" signature="test_deleteUserByName()[pri:4, instance:api.tests.UserTests@4ce1d6d0]" started-at="2025-07-05T21:16:02 IST" name="test_deleteUserByName" finished-at="2025-07-05T21:16:04 IST" duration-ms="1419" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [200] but found [404]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [200] but found [404]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1431)
+at org.testng.Assert.assertEquals(Assert.java:1395)
+at org.testng.Assert.assertEquals(Assert.java:1441)
+at api.tests.UserTests.test_deleteUserByName(UserTests.java:218)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_deleteUserByName -->
+        <test-method signature="test_deleteUserByName()[pri:4, instance:api.tests.UserTests@4ce1d6d0]" started-at="2025-07-05T21:16:04 IST" name="test_deleteUserByName" finished-at="2025-07-05T21:16:05 IST" duration-ms="1436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_deleteUserByName -->
+        <test-method signature="test_loginUser()[pri:5, instance:api.tests.UserTests@4ce1d6d0]" started-at="2025-07-05T21:16:05 IST" name="test_loginUser" description="This test verifies that logging in a user returns a 200 status code" finished-at="2025-07-05T21:16:07 IST" duration-ms="1569" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_loginUser -->
-        <test-method signature="test_logoutUser()[pri:6, instance:api.tests.UserTests@7ca20101]" started-at="2025-06-19T13:39:47 IST" name="test_logoutUser" description="This test verifies that the logout response returns a 200 status code" finished-at="2025-06-19T13:39:48 IST" duration-ms="1440" status="PASS">
+        <test-method signature="test_logoutUser()[pri:6, instance:api.tests.UserTests@4ce1d6d0]" started-at="2025-07-05T21:16:07 IST" name="test_logoutUser" description="This test verifies that the logout response returns a 200 status code" finished-at="2025-07-05T21:16:08 IST" duration-ms="1438" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_logoutUser -->
       </class> <!-- api.tests.UserTests -->
       <class name="api.tests.DDTests">
-        <test-method signature="test_DDT_createUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDTests@3fc9504b]" started-at="2025-06-19T13:39:32 IST" name="test_DDT_createUser" data-provider="ExcelData" finished-at="2025-06-19T13:39:38 IST" duration-ms="6608" status="PASS">
+        <test-method signature="test_DDT_createUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDTests@4b79ac84]" started-at="2025-07-05T21:15:53 IST" name="test_DDT_createUser" data-provider="ExcelData" finished-at="2025-07-05T21:15:56 IST" duration-ms="2937" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -78,7 +189,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_DDT_createUser -->
-        <test-method signature="test_DDT_createUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDTests@3fc9504b]" started-at="2025-06-19T13:39:38 IST" name="test_DDT_createUser" data-provider="ExcelData" finished-at="2025-06-19T13:39:39 IST" duration-ms="1299" status="PASS">
+        <test-method signature="test_DDT_createUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDTests@4b79ac84]" started-at="2025-07-05T21:15:56 IST" name="test_DDT_createUser" data-provider="ExcelData" finished-at="2025-07-05T21:15:57 IST" duration-ms="1296" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -119,7 +230,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_DDT_createUser -->
-        <test-method signature="test_DDT_createUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDTests@3fc9504b]" started-at="2025-06-19T13:39:39 IST" name="test_DDT_createUser" data-provider="ExcelData" finished-at="2025-06-19T13:39:41 IST" duration-ms="1406" status="PASS">
+        <test-method signature="test_DDT_createUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.tests.DDTests@4b79ac84]" started-at="2025-07-05T21:15:57 IST" name="test_DDT_createUser" data-provider="ExcelData" finished-at="2025-07-05T21:15:58 IST" duration-ms="1433" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -160,7 +271,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_DDT_createUser -->
-        <test-method signature="test_DDT_deleteUsers(java.lang.String)[pri:4, instance:api.tests.DDTests@3fc9504b]" started-at="2025-06-19T13:39:41 IST" name="test_DDT_deleteUsers" data-provider="UserNames" finished-at="2025-06-19T13:39:42 IST" duration-ms="1334" status="PASS">
+        <test-method signature="test_DDT_deleteUsers(java.lang.String)[pri:4, instance:api.tests.DDTests@4b79ac84]" started-at="2025-07-05T21:15:58 IST" name="test_DDT_deleteUsers" data-provider="UserNames" finished-at="2025-07-05T21:16:00 IST" duration-ms="1314" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -171,7 +282,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_DDT_deleteUsers -->
-        <test-method signature="test_DDT_deleteUsers(java.lang.String)[pri:4, instance:api.tests.DDTests@3fc9504b]" started-at="2025-06-19T13:39:42 IST" name="test_DDT_deleteUsers" data-provider="UserNames" finished-at="2025-06-19T13:39:44 IST" duration-ms="1418" status="PASS">
+        <test-method signature="test_DDT_deleteUsers(java.lang.String)[pri:4, instance:api.tests.DDTests@4b79ac84]" started-at="2025-07-05T21:16:00 IST" name="test_DDT_deleteUsers" data-provider="UserNames" finished-at="2025-07-05T21:16:01 IST" duration-ms="1536" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -182,7 +293,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_DDT_deleteUsers -->
-        <test-method signature="test_DDT_deleteUsers(java.lang.String)[pri:4, instance:api.tests.DDTests@3fc9504b]" started-at="2025-06-19T13:39:44 IST" name="test_DDT_deleteUsers" data-provider="UserNames" finished-at="2025-06-19T13:39:45 IST" duration-ms="1532" status="PASS">
+        <test-method signature="test_DDT_deleteUsers(java.lang.String)[pri:4, instance:api.tests.DDTests@4b79ac84]" started-at="2025-07-05T21:16:01 IST" name="test_DDT_deleteUsers" data-provider="UserNames" finished-at="2025-07-05T21:16:03 IST" duration-ms="1432" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -195,124 +306,31 @@
         </test-method> <!-- test_DDT_deleteUsers -->
       </class> <!-- api.tests.DDTests -->
       <class name="api.tests.UserTests2">
-        <test-method is-config="true" signature="setup()[pri:0, instance:api.tests.UserTests2@47f9738]" started-at="2025-06-19T13:39:27 IST" name="setup" finished-at="2025-06-19T13:39:28 IST" duration-ms="988" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:api.tests.UserTests2@24111ef1]" started-at="2025-07-05T21:15:51 IST" name="setup" finished-at="2025-07-05T21:15:51 IST" duration-ms="315" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_createUser()[pri:1, instance:api.tests.UserTests2@47f9738]" started-at="2025-06-19T13:39:28 IST" name="test_createUser" finished-at="2025-06-19T13:39:41 IST" duration-ms="12606" status="PASS">
+        <test-method signature="test_createUser()[pri:1, instance:api.tests.UserTests2@24111ef1]" started-at="2025-07-05T21:15:51 IST" name="test_createUser" finished-at="2025-07-05T21:15:57 IST" duration-ms="5557" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_createUser -->
-        <test-method retried="true" signature="test_getUserByName()[pri:2, instance:api.tests.UserTests2@47f9738]" started-at="2025-06-19T13:39:41 IST" name="test_getUserByName" finished-at="2025-06-19T13:39:42 IST" duration-ms="1368" status="SKIP">
-          <exception class="org.json.JSONException">
-            <message>
-              <![CDATA[JSONObject["id"] not found.]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.json.JSONException: JSONObject["id"] not found.
-at org.json.JSONObject.get(JSONObject.java:635)
-at api.tests.UserTests2.test_getUserByName(UserTests2.java:128)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.json.JSONException -->
+        <test-method signature="test_getUserByName()[pri:2, instance:api.tests.UserTests2@24111ef1]" started-at="2025-07-05T21:15:57 IST" name="test_getUserByName" finished-at="2025-07-05T21:15:58 IST" duration-ms="1507" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_getUserByName -->
-        <test-method retried="true" signature="test_getUserByName()[pri:2, instance:api.tests.UserTests2@47f9738]" started-at="2025-06-19T13:39:42 IST" name="test_getUserByName" finished-at="2025-06-19T13:39:43 IST" duration-ms="1367" status="SKIP">
-          <exception class="org.json.JSONException">
-            <message>
-              <![CDATA[JSONObject["id"] not found.]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.json.JSONException: JSONObject["id"] not found.
-at org.json.JSONObject.get(JSONObject.java:635)
-at api.tests.UserTests2.test_getUserByName(UserTests2.java:128)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.json.JSONException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_getUserByName -->
-        <test-method retried="true" signature="test_getUserByName()[pri:2, instance:api.tests.UserTests2@47f9738]" started-at="2025-06-19T13:39:43 IST" name="test_getUserByName" finished-at="2025-06-19T13:39:45 IST" duration-ms="1529" status="SKIP">
-          <exception class="org.json.JSONException">
-            <message>
-              <![CDATA[JSONObject["id"] not found.]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.json.JSONException: JSONObject["id"] not found.
-at org.json.JSONObject.get(JSONObject.java:635)
-at api.tests.UserTests2.test_getUserByName(UserTests2.java:128)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.json.JSONException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_getUserByName -->
-        <test-method signature="test_getUserByName()[pri:2, instance:api.tests.UserTests2@47f9738]" started-at="2025-06-19T13:39:45 IST" name="test_getUserByName" finished-at="2025-06-19T13:39:47 IST" duration-ms="1627" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_getUserByName -->
-        <test-method signature="test_updateUserByName()[pri:3, instance:api.tests.UserTests2@47f9738]" started-at="2025-06-19T13:39:47 IST" name="test_updateUserByName" finished-at="2025-06-19T13:39:48 IST" duration-ms="1532" status="PASS">
+        <test-method signature="test_updateUserByName()[pri:3, instance:api.tests.UserTests2@24111ef1]" started-at="2025-07-05T21:15:58 IST" name="test_updateUserByName" finished-at="2025-07-05T21:15:59 IST" duration-ms="1365" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_updateUserByName -->
-        <test-method signature="test_deleteUserByName()[pri:4, instance:api.tests.UserTests2@47f9738]" started-at="2025-06-19T13:39:48 IST" name="test_deleteUserByName" finished-at="2025-06-19T13:39:50 IST" duration-ms="1493" status="PASS">
+        <test-method signature="test_deleteUserByName()[pri:4, instance:api.tests.UserTests2@24111ef1]" started-at="2025-07-05T21:15:59 IST" name="test_deleteUserByName" finished-at="2025-07-05T21:16:01 IST" duration-ms="1521" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_deleteUserByName -->
-        <test-method signature="test_loginUser()[pri:5, instance:api.tests.UserTests2@47f9738]" started-at="2025-06-19T13:39:50 IST" name="test_loginUser" description="This test verifies that logging in a user returns a 200 status code" finished-at="2025-06-19T13:39:51 IST" duration-ms="1623" status="PASS">
+        <test-method signature="test_loginUser()[pri:5, instance:api.tests.UserTests2@24111ef1]" started-at="2025-07-05T21:16:01 IST" name="test_loginUser" description="This test verifies that logging in a user returns a 200 status code" finished-at="2025-07-05T21:16:02 IST" duration-ms="1493" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_loginUser -->
-        <test-method signature="test_logoutUser()[pri:6, instance:api.tests.UserTests2@47f9738]" started-at="2025-06-19T13:39:51 IST" name="test_logoutUser" description="This test verifies that the logout response returns a 200 status code" finished-at="2025-06-19T13:39:53 IST" duration-ms="1543" status="PASS">
+        <test-method signature="test_logoutUser()[pri:6, instance:api.tests.UserTests2@24111ef1]" started-at="2025-07-05T21:16:02 IST" name="test_logoutUser" description="This test verifies that the logout response returns a 200 status code" finished-at="2025-07-05T21:16:04 IST" duration-ms="1409" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_logoutUser -->

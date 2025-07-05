@@ -1,334 +1,59 @@
-13:06:55.254  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-13:06:55.264  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-13:06:55.283  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-13:06:55.284  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-13:06:55.301  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-13:06:55.304  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-13:06:55.317  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-13:06:55.318  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-13:06:55.334  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-13:06:55.335  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-13:06:55.349  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-13:06:55.350  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-13:06:55.363  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-13:06:55.364  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-13:06:55.377  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-13:06:55.377  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-13:06:55.390  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-13:06:55.391  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-13:06:55.405  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-13:06:55.406  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-13:06:55.418  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-13:06:55.419  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-13:06:55.429  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-13:06:55.431  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-13:06:55.443  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-13:06:55.443  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-13:06:55.458  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-13:06:55.458  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-13:06:55.475  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-13:06:55.475  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-13:06:55.495  [TestNG-test-Test-1] INFO  api.tests.DDTests - ***************Starting DDT create user tests***************
-13:06:58.248  [TestNG-test-Test-2] INFO  api.tests.UserTests - Asserting response field types
-13:06:58.248  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - Asserting response field types
-13:06:58.295  [TestNG-test-Test-1] INFO  api.tests.DDTests - ***************Finished DDT create user tests***************
-13:06:58.302  [TestNG-test-Test-1] INFO  api.tests.DDTests - ***************Starting DDT create user tests***************
-13:06:59.175  [TestNG-test-Test-2] INFO  api.tests.UserTests - ***** Finished test_createUser *****
-13:06:59.175  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ***** Finished test_createUser *****
-13:06:59.175  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ********************************************
-13:06:59.175  [TestNG-test-Test-2] INFO  api.tests.UserTests - ********************************************
-13:06:59.181  [TestNG-test-Test-2] INFO  api.tests.UserTests - ***** Starting test_getUserByName *****
-13:06:59.181  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ***** Starting test_getUserByName *****
-13:07:00.158  [TestNG-test-Test-1] INFO  api.tests.DDTests - ***************Finished DDT create user tests***************
-13:07:00.160  [TestNG-test-Test-1] INFO  api.tests.DDTests - ***************Starting DDT create user tests***************
-13:07:00.813  [TestNG-test-Test-2] INFO  api.tests.UserTests - Response body: {"code":1,"type":"error","message":"User not found"}
-13:07:00.814  [TestNG-test-Test-2] ERROR api.tests.UserTests - Unexpected exception occurred: JSONObject["id"] not found.
-13:07:00.814  [TestNG-test-Test-2] INFO  api.tests.UserTests - ***** Finished test_getUserByName *****
-13:07:00.820  [TestNG-test-Test-2] INFO  api.tests.UserTests - ***** Starting test_getUserByName *****
-13:07:00.887  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - Response body: {"code":1,"type":"error","message":"User not found"}
-13:07:00.887  [TestNG-test-Test-3] ERROR api.tests.UserTests2 - Unexpected exception occurred: JSONObject["id"] not found.
-13:07:00.888  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ***** Finished test_getUserByName *****
-13:07:00.897  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ***** Starting test_getUserByName *****
-13:07:01.839  [TestNG-test-Test-1] INFO  api.tests.DDTests - ***************Finished DDT create user tests***************
-13:07:01.849  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-13:07:01.851  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-13:07:01.884  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-13:07:01.885  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-13:07:01.908  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-13:07:01.908  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-13:07:01.938  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-13:07:01.938  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-13:07:02.581  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - Response body: {"id":1440241589,"username":"tangela.ledner","firstName":"Antone","lastName":"Jerde","email":"miguel.morissette@example.com","password":"uq0aibard09c2","phone":"(746) 783-8504","userStatus":0}
-13:07:02.581  [TestNG-test-Test-2] INFO  api.tests.UserTests - Response body: {"code":1,"type":"error","message":"User not found"}
-13:07:02.582  [TestNG-test-Test-2] ERROR api.tests.UserTests - Unexpected exception occurred: JSONObject["id"] not found.
-13:07:02.582  [TestNG-test-Test-2] INFO  api.tests.UserTests - ***** Finished test_getUserByName *****
-13:07:02.587  [TestNG-test-Test-2] INFO  api.tests.UserTests - ***** Starting test_getUserByName *****
-13:07:02.671  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ***** Finished test_getUserByName *****
-13:07:02.673  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ********************************************
-13:07:02.673  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ***** Starting test_updateUser *****
-13:07:04.570  [TestNG-test-Test-2] INFO  api.tests.UserTests - Response body: {"code":1,"type":"error","message":"User not found"}
-13:07:04.570  [TestNG-test-Test-2] ERROR api.tests.UserTests - Unexpected exception occurred: JSONObject["id"] not found.
-13:07:04.571  [TestNG-test-Test-2] INFO  api.tests.UserTests - ***** Finished test_getUserByName *****
-13:07:04.574  [TestNG-test-Test-2] INFO  api.tests.UserTests - ***** Starting test_getUserByName *****
-13:07:04.598  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ***** Finished test_updateUser *****
-13:07:04.598  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ********************************************
-13:07:06.400  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ********************************************
-13:07:06.401  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ********* Starting test_loginUser **********
-13:07:06.483  [TestNG-test-Test-2] INFO  api.tests.UserTests - Response body: {"id":1323565495,"username":"pat.daugherty","firstName":"Ellie","lastName":"Kris","email":"augustine.muller@example.com","password":"3x59sivhe","phone":"(351) 165-6852","userStatus":0}
-13:07:06.559  [TestNG-test-Test-2] INFO  api.tests.UserTests - ***** Finished test_getUserByName *****
-13:07:06.566  [TestNG-test-Test-2] INFO  api.tests.UserTests - ********************************************
-13:07:06.566  [TestNG-test-Test-2] INFO  api.tests.UserTests - ***** Starting test_updateUser *****
-13:07:07.918  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - Asserting that the response matches the JSON schema from C:\Users\ubaidullah.bawa\eclipse-workspace\PetStoreAutomation\test-data\getUserLoginSchema.json
-13:07:07.922  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ***** Finished test_loginUser***************
-13:07:07.922  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ********************************************
-13:07:07.925  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ********************************************
-13:07:07.925  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ******** Starting test_logoutUser***********
-13:07:08.197  [TestNG-test-Test-2] INFO  api.tests.UserTests - ***** Finished test_updateUser *****
-13:07:08.198  [TestNG-test-Test-2] INFO  api.tests.UserTests - ********************************************
-13:07:09.387  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ***** Finished test_logoutUser *****
-13:07:09.387  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ************************************
-13:07:09.631  [TestNG-test-Test-2] INFO  api.tests.UserTests - ********************************************
-13:07:09.632  [TestNG-test-Test-2] INFO  api.tests.UserTests - ********* Starting test_loginUser **********
-13:07:13.273  [TestNG-test-Test-2] INFO  api.tests.UserTests - Asserting that the response matches the JSON schema from C:\Users\ubaidullah.bawa\eclipse-workspace\PetStoreAutomation\test-data\getUserLoginSchema.json
-13:07:13.278  [TestNG-test-Test-2] INFO  api.tests.UserTests - ***** Finished test_loginUser***************
-13:07:13.279  [TestNG-test-Test-2] INFO  api.tests.UserTests - ********************************************
-13:07:13.281  [TestNG-test-Test-2] INFO  api.tests.UserTests - ********************************************
-13:07:13.282  [TestNG-test-Test-2] INFO  api.tests.UserTests - ******** Starting test_logoutUser***********
-13:07:15.214  [TestNG-test-Test-2] INFO  api.tests.UserTests - ***** Finished test_logoutUser *****
-13:07:15.215  [TestNG-test-Test-2] INFO  api.tests.UserTests - ************************************
-13:09:53.067  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-13:09:53.077  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-13:09:53.114  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ****************************************************************
-13:09:53.114  [TestNG-test-Test-2] INFO  api.tests.UserTests - ****************************************************************
-13:09:53.114  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ***********<<<<<Starting test_createUser>>>>>*******************
-13:09:53.114  [TestNG-test-Test-2] INFO  api.tests.UserTests - ***********<<<<<Starting test_createUser>>>>>*******************
-13:09:53.115  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - Sending POST request to create a new user
-13:09:53.115  [TestNG-test-Test-2] INFO  api.tests.UserTests - Sending POST request to create a new user
-13:09:53.821  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-13:09:53.822  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-13:09:53.852  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-13:09:53.853  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-13:09:53.916  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-13:09:53.917  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-13:09:53.941  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-13:09:53.942  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-13:09:53.964  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-13:09:53.965  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-13:09:53.982  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-13:09:53.983  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-13:09:54.002  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-13:09:54.002  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-13:09:54.022  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-13:09:54.023  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-13:09:54.037  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-13:09:54.038  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-13:09:54.052  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-13:09:54.053  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-13:09:54.068  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-13:09:54.068  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-13:09:54.082  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-13:09:54.083  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-13:09:54.098  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-13:09:54.099  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-13:09:54.117  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-13:09:54.117  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-13:09:54.130  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-13:09:54.131  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-13:09:54.146  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-13:09:54.146  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-13:09:54.159  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-13:09:54.159  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-13:09:54.172  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-13:09:54.173  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-13:09:54.188  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-13:09:54.189  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-13:09:54.203  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-13:09:54.204  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-13:09:54.218  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-13:09:54.218  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-13:09:54.233  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-13:09:54.233  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-13:09:54.254  [TestNG-test-Test-1] INFO  api.tests.DDTests - ***************Starting DDT create user tests***************
-13:09:56.956  [TestNG-test-Test-2] INFO  api.tests.UserTests - Asserting response field types
-13:09:56.956  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - Asserting response field types
-13:09:57.044  [TestNG-test-Test-1] INFO  api.tests.DDTests - ***************Finished DDT create user tests***************
-13:09:57.051  [TestNG-test-Test-1] INFO  api.tests.DDTests - ***************Starting DDT create user tests***************
-13:09:58.121  [TestNG-test-Test-2] INFO  api.tests.UserTests - ***** Finished test_createUser *****
-13:09:58.121  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ***** Finished test_createUser *****
-13:09:58.121  [TestNG-test-Test-2] INFO  api.tests.UserTests - ********************************************
-13:09:58.121  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ********************************************
-13:09:58.123  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ***** Starting test_getUserByName *****
-13:09:58.123  [TestNG-test-Test-2] INFO  api.tests.UserTests - ***** Starting test_getUserByName *****
-13:09:58.480  [TestNG-test-Test-1] INFO  api.tests.DDTests - ***************Finished DDT create user tests***************
-13:09:58.481  [TestNG-test-Test-1] INFO  api.tests.DDTests - ***************Starting DDT create user tests***************
-13:09:59.708  [TestNG-test-Test-2] INFO  api.tests.UserTests - Response body: {"code":1,"type":"error","message":"User not found"}
-13:09:59.708  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - Response body: {"code":1,"type":"error","message":"User not found"}
-13:09:59.709  [TestNG-test-Test-3] ERROR api.tests.UserTests2 - Unexpected exception occurred: JSONObject["id"] not found.
-13:09:59.709  [TestNG-test-Test-2] ERROR api.tests.UserTests - Unexpected exception occurred: JSONObject["id"] not found.
-13:09:59.709  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ***** Finished test_getUserByName *****
-13:09:59.710  [TestNG-test-Test-2] INFO  api.tests.UserTests - ***** Finished test_getUserByName *****
-13:09:59.717  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ***** Starting test_getUserByName *****
-13:09:59.717  [TestNG-test-Test-2] INFO  api.tests.UserTests - ***** Starting test_getUserByName *****
-13:10:00.018  [TestNG-test-Test-1] INFO  api.tests.DDTests - ***************Finished DDT create user tests***************
-13:10:00.032  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-13:10:00.034  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-13:10:00.074  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-13:10:00.076  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-13:10:00.112  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-13:10:00.113  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-13:10:00.133  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-13:10:00.134  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-13:10:01.348  [TestNG-test-Test-2] INFO  api.tests.UserTests - Response body: {"id":707619787,"username":"edgar.kreiger","firstName":"Thomas","lastName":"Cole","email":"andreas.stehr@example.com","password":"ws5clbh922ulv","phone":"1-253-027-5924","userStatus":0}
-13:10:01.348  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - Response body: {"code":1,"type":"error","message":"User not found"}
-13:10:01.349  [TestNG-test-Test-3] ERROR api.tests.UserTests2 - Unexpected exception occurred: JSONObject["id"] not found.
-13:10:01.350  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ***** Finished test_getUserByName *****
-13:10:01.352  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ***** Starting test_getUserByName *****
-13:10:01.500  [TestNG-test-Test-2] INFO  api.tests.UserTests - ***** Finished test_getUserByName *****
-13:10:01.503  [TestNG-test-Test-2] INFO  api.tests.UserTests - ********************************************
-13:10:01.504  [TestNG-test-Test-2] INFO  api.tests.UserTests - ***** Starting test_updateUser *****
-13:10:02.780  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - Response body: {"code":1,"type":"error","message":"User not found"}
-13:10:02.781  [TestNG-test-Test-3] ERROR api.tests.UserTests2 - Unexpected exception occurred: JSONObject["id"] not found.
-13:10:02.781  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ***** Finished test_getUserByName *****
-13:10:02.783  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ***** Starting test_getUserByName *****
-13:10:03.090  [TestNG-test-Test-2] INFO  api.tests.UserTests - ***** Finished test_updateUser *****
-13:10:03.091  [TestNG-test-Test-2] INFO  api.tests.UserTests - ********************************************
-13:10:04.259  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - Response body: {"id":562086248,"username":"jami.kautzer","firstName":"Burton","lastName":"Rodriguez","email":"leoma.hudson@example.com","password":"usyfhzz1xg9gbb","phone":"272.438.1838","userStatus":0}
-13:10:04.353  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ***** Finished test_getUserByName *****
-13:10:04.356  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ********************************************
-13:10:04.356  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ***** Starting test_updateUser *****
-13:10:04.539  [TestNG-test-Test-2] INFO  api.tests.UserTests - ********************************************
-13:10:04.539  [TestNG-test-Test-2] INFO  api.tests.UserTests - ********* Starting test_loginUser **********
-13:10:05.805  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ***** Finished test_updateUser *****
-13:10:05.805  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ********************************************
-13:10:06.112  [TestNG-test-Test-2] INFO  api.tests.UserTests - Asserting that the response matches the JSON schema from C:\Users\ubaidullah.bawa\eclipse-workspace\PetStoreAutomation\test-data\getUserLoginSchema.json
-13:10:06.117  [TestNG-test-Test-2] INFO  api.tests.UserTests - ***** Finished test_loginUser***************
-13:10:06.117  [TestNG-test-Test-2] INFO  api.tests.UserTests - ********************************************
-13:10:06.118  [TestNG-test-Test-2] INFO  api.tests.UserTests - ********************************************
-13:10:06.118  [TestNG-test-Test-2] INFO  api.tests.UserTests - ******** Starting test_logoutUser***********
-13:10:07.295  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ********************************************
-13:10:07.295  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ********* Starting test_loginUser **********
-13:10:07.622  [TestNG-test-Test-2] INFO  api.tests.UserTests - ***** Finished test_logoutUser *****
-13:10:07.622  [TestNG-test-Test-2] INFO  api.tests.UserTests - ************************************
-13:10:08.821  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - Asserting that the response matches the JSON schema from C:\Users\ubaidullah.bawa\eclipse-workspace\PetStoreAutomation\test-data\getUserLoginSchema.json
-13:10:08.829  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ***** Finished test_loginUser***************
-13:10:08.829  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ********************************************
-13:10:08.832  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ********************************************
-13:10:08.833  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ******** Starting test_logoutUser***********
-13:10:10.193  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ***** Finished test_logoutUser *****
-13:10:10.194  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ************************************
-13:39:28.502  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-13:39:28.524  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-13:39:28.701  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ****************************************************************
-13:39:28.701  [TestNG-test-Test-2] INFO  api.tests.UserTests - ****************************************************************
-13:39:28.701  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ***********<<<<<Starting test_createUser>>>>>*******************
-13:39:28.701  [TestNG-test-Test-2] INFO  api.tests.UserTests - ***********<<<<<Starting test_createUser>>>>>*******************
-13:39:28.701  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - Sending POST request to create a new user
-13:39:28.701  [TestNG-test-Test-2] INFO  api.tests.UserTests - Sending POST request to create a new user
-13:39:30.706  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-13:39:30.715  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-13:39:30.805  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-13:39:30.805  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-13:39:30.963  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-13:39:30.969  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-13:39:31.055  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-13:39:31.058  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-13:39:31.134  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-13:39:31.137  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-13:39:31.188  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-13:39:31.205  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-13:39:31.270  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-13:39:31.278  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-13:39:31.382  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-13:39:31.393  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-13:39:31.458  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-13:39:31.458  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-13:39:31.505  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-13:39:31.505  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-13:39:31.549  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-13:39:31.551  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-13:39:31.592  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-13:39:31.593  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-13:39:31.638  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-13:39:31.642  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-13:39:31.675  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-13:39:31.675  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-13:39:31.710  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-13:39:31.716  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-13:39:31.743  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-13:39:31.753  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-13:39:31.792  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-13:39:31.793  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-13:39:31.831  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-13:39:31.833  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-13:39:31.877  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-13:39:31.883  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-13:39:31.923  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-13:39:31.926  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-13:39:31.975  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-13:39:31.975  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-13:39:32.013  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-13:39:32.016  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-13:39:32.071  [TestNG-test-Test-1] INFO  api.tests.DDTests - ***************Starting DDT create user tests***************
-13:39:38.566  [TestNG-test-Test-2] INFO  api.tests.UserTests - Asserting response field types
-13:39:38.566  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - Asserting response field types
-13:39:38.663  [TestNG-test-Test-1] INFO  api.tests.DDTests - ***************Finished DDT create user tests***************
-13:39:38.672  [TestNG-test-Test-1] INFO  api.tests.DDTests - ***************Starting DDT create user tests***************
-13:39:39.969  [TestNG-test-Test-1] INFO  api.tests.DDTests - ***************Finished DDT create user tests***************
-13:39:39.974  [TestNG-test-Test-1] INFO  api.tests.DDTests - ***************Starting DDT create user tests***************
-13:39:41.212  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ***** Finished test_createUser *****
-13:39:41.212  [TestNG-test-Test-2] INFO  api.tests.UserTests - ***** Finished test_createUser *****
-13:39:41.212  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ********************************************
-13:39:41.212  [TestNG-test-Test-2] INFO  api.tests.UserTests - ********************************************
-13:39:41.219  [TestNG-test-Test-2] INFO  api.tests.UserTests - ***** Starting test_getUserByName *****
-13:39:41.219  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ***** Starting test_getUserByName *****
-13:39:41.378  [TestNG-test-Test-1] INFO  api.tests.DDTests - ***************Finished DDT create user tests***************
-13:39:41.389  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-13:39:41.389  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-13:39:41.406  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-13:39:41.408  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-13:39:41.441  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-13:39:41.443  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-13:39:41.482  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-13:39:41.485  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-13:39:42.557  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - Response body: {"code":1,"type":"error","message":"User not found"}
-13:39:42.557  [TestNG-test-Test-3] ERROR api.tests.UserTests2 - Unexpected exception occurred: JSONObject["id"] not found.
-13:39:42.557  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ***** Finished test_getUserByName *****
-13:39:42.588  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ***** Starting test_getUserByName *****
-13:39:42.622  [TestNG-test-Test-2] INFO  api.tests.UserTests - Response body: {"id":1040393777,"username":"marty.durgan","firstName":"Elda","lastName":"Reichert","email":"maren.kub@example.com","password":"4c46ogcxar745vq","phone":"(724) 673-0999","userStatus":0}
-13:39:42.780  [TestNG-test-Test-2] INFO  api.tests.UserTests - ***** Finished test_getUserByName *****
-13:39:42.784  [TestNG-test-Test-2] INFO  api.tests.UserTests - ********************************************
-13:39:42.784  [TestNG-test-Test-2] INFO  api.tests.UserTests - ***** Starting test_updateUser *****
-13:39:43.955  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - Response body: {"code":1,"type":"error","message":"User not found"}
-13:39:43.955  [TestNG-test-Test-3] ERROR api.tests.UserTests2 - Unexpected exception occurred: JSONObject["id"] not found.
-13:39:43.955  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ***** Finished test_getUserByName *****
-13:39:43.955  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ***** Starting test_getUserByName *****
-13:39:44.310  [TestNG-test-Test-2] INFO  api.tests.UserTests - ***** Finished test_updateUser *****
-13:39:44.310  [TestNG-test-Test-2] INFO  api.tests.UserTests - ********************************************
-13:39:45.481  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - Response body: {"code":1,"type":"error","message":"User not found"}
-13:39:45.481  [TestNG-test-Test-3] ERROR api.tests.UserTests2 - Unexpected exception occurred: JSONObject["id"] not found.
-13:39:45.484  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ***** Finished test_getUserByName *****
-13:39:45.488  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ***** Starting test_getUserByName *****
-13:39:45.850  [TestNG-test-Test-2] INFO  api.tests.UserTests - ********************************************
-13:39:45.851  [TestNG-test-Test-2] INFO  api.tests.UserTests - ********* Starting test_loginUser **********
-13:39:46.952  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - Response body: {"id":1749038031,"username":"mercedes.hand","firstName":"Ayanna","lastName":"Jakubowski","email":"evita.leannon@example.com","password":"xure99s3j4jd","phone":"068-881-2745","userStatus":0}
-13:39:47.115  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ***** Finished test_getUserByName *****
-13:39:47.117  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ********************************************
-13:39:47.117  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ***** Starting test_updateUser *****
-13:39:47.260  [TestNG-test-Test-2] INFO  api.tests.UserTests - Asserting that the response matches the JSON schema from C:\Users\ubaidullah.bawa\eclipse-workspace\PetStoreAutomation\test-data\getUserLoginSchema.json
-13:39:47.266  [TestNG-test-Test-2] INFO  api.tests.UserTests - ***** Finished test_loginUser***************
-13:39:47.266  [TestNG-test-Test-2] INFO  api.tests.UserTests - ********************************************
-13:39:47.275  [TestNG-test-Test-2] INFO  api.tests.UserTests - ********************************************
-13:39:47.275  [TestNG-test-Test-2] INFO  api.tests.UserTests - ******** Starting test_logoutUser***********
-13:39:48.649  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ***** Finished test_updateUser *****
-13:39:48.649  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ********************************************
-13:39:48.713  [TestNG-test-Test-2] INFO  api.tests.UserTests - ***** Finished test_logoutUser *****
-13:39:48.713  [TestNG-test-Test-2] INFO  api.tests.UserTests - ************************************
-13:39:50.163  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ********************************************
-13:39:50.163  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ********* Starting test_loginUser **********
-13:39:51.776  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - Asserting that the response matches the JSON schema from C:\Users\ubaidullah.bawa\eclipse-workspace\PetStoreAutomation\test-data\getUserLoginSchema.json
-13:39:51.784  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ***** Finished test_loginUser***************
-13:39:51.784  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ********************************************
-13:39:51.784  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ********************************************
-13:39:51.784  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ******** Starting test_logoutUser***********
-13:39:53.327  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ***** Finished test_logoutUser *****
-13:39:53.327  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ************************************
+21:15:52.970  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+21:15:53.007  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+21:15:53.008  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+21:15:53.023  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+21:15:53.024  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+21:15:53.043  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+21:15:53.044  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+21:15:53.069  [TestNG-test-Test-1] INFO  api.tests.DDTests - ***************Starting DDT create user tests***************
+21:15:55.900  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - Asserting response field types
+21:15:55.900  [TestNG-test-Test-2] INFO  api.tests.UserTests - Asserting response field types
+21:15:56.002  [TestNG-test-Test-1] INFO  api.tests.DDTests - ***************Finished DDT create user tests***************
+21:15:56.006  [TestNG-test-Test-1] INFO  api.tests.DDTests - ***************Starting DDT create user tests***************
+21:15:57.006  [TestNG-test-Test-2] INFO  api.tests.UserTests - ***** Finished test_createUser *****
+21:15:57.006  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ***** Finished test_createUser *****
+21:15:57.006  [TestNG-test-Test-2] INFO  api.tests.UserTests - ********************************************
+21:15:57.007  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ********************************************
+21:15:57.009  [TestNG-test-Test-2] INFO  api.tests.UserTests - ***** Starting test_getUserByName *****
+21:15:57.009  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ***** Starting test_getUserByName *****
+21:15:57.301  [TestNG-test-Test-1] INFO  api.tests.DDTests - ***************Finished DDT create user tests***************
+21:15:57.304  [TestNG-test-Test-1] INFO  api.tests.DDTests - ***************Starting DDT create user tests***************
+21:15:58.426  [TestNG-test-Test-2] INFO  api.tests.UserTests - Response body: {"id":2034134772,"username":"samantha.haley","firstName":"Erwin","lastName":"Wolff","email":"horace.halvorson@example.com","password":"c2g2d9lyg536","phone":"864-544-6068","userStatus":0}
+21:15:58.426  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - Response body: {"id":588133348,"username":"stacey.buckridge","firstName":"Newton","lastName":"Stiedemann","email":"doretha.wunsch@example.com","password":"8tuyxmwrotew0g","phone":"(638) 272-5941","userStatus":0}
+21:15:58.511  [TestNG-test-Test-2] INFO  api.tests.UserTests - ***** Finished test_getUserByName *****
+21:15:58.512  [TestNG-test-Test-2] INFO  api.tests.UserTests - ********************************************
+21:15:58.513  [TestNG-test-Test-2] INFO  api.tests.UserTests - ***** Starting test_updateUser *****
+21:15:58.514  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ***** Finished test_getUserByName *****
+21:15:58.517  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ********************************************
+21:15:58.517  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ***** Starting test_updateUser *****
+21:15:58.735  [TestNG-test-Test-1] INFO  api.tests.DDTests - ***************Finished DDT create user tests***************
+21:15:58.753  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+21:15:58.756  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+21:15:58.803  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+21:15:58.803  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+21:15:58.817  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+21:15:58.817  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+21:15:58.840  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+21:15:58.841  [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+21:15:59.881  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ***** Finished test_updateUser *****
+21:15:59.881  [TestNG-test-Test-2] INFO  api.tests.UserTests - ***** Finished test_updateUser *****
+21:15:59.881  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ********************************************
+21:15:59.881  [TestNG-test-Test-2] INFO  api.tests.UserTests - ********************************************
+21:16:01.404  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ********************************************
+21:16:01.404  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ********* Starting test_loginUser **********
+21:16:02.892  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - Asserting that the response matches the JSON schema from C:\Users\ubaidullah.bawa\eclipse-workspace\PetStoreAutomation\test-data\getUserLoginSchema.json
+21:16:02.896  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ***** Finished test_loginUser***************
+21:16:02.896  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ********************************************
+21:16:02.897  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ********************************************
+21:16:02.897  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ******** Starting test_logoutUser***********
+21:16:04.306  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ***** Finished test_logoutUser *****
+21:16:04.306  [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ************************************
+21:16:05.702  [TestNG-test-Test-2] INFO  api.tests.UserTests - ********************************************
+21:16:05.702  [TestNG-test-Test-2] INFO  api.tests.UserTests - ********* Starting test_loginUser **********
+21:16:07.266  [TestNG-test-Test-2] INFO  api.tests.UserTests - Asserting that the response matches the JSON schema from C:\Users\ubaidullah.bawa\eclipse-workspace\PetStoreAutomation\test-data\getUserLoginSchema.json
+21:16:07.270  [TestNG-test-Test-2] INFO  api.tests.UserTests - ***** Finished test_loginUser***************
+21:16:07.270  [TestNG-test-Test-2] INFO  api.tests.UserTests - ********************************************
+21:16:07.271  [TestNG-test-Test-2] INFO  api.tests.UserTests - ********************************************
+21:16:07.271  [TestNG-test-Test-2] INFO  api.tests.UserTests - ******** Starting test_logoutUser***********
+21:16:08.708  [TestNG-test-Test-2] INFO  api.tests.UserTests - ***** Finished test_logoutUser *****
+21:16:08.708  [TestNG-test-Test-2] INFO  api.tests.UserTests - ************************************
