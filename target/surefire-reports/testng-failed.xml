@@ -1,17 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+<suite thread-count="3" parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
   <listeners>
     <listener class-name="api.utilities.ExtentReportManager"/>
   </listeners>
-  <test thread-count="5" name="Test(failed)" verbose="0">
+  <test thread-count="3" parallel="classes" name="Test(failed)" verbose="0">
     <classes>
       <class name="api.tests.UserTests2">
         <methods>
-          <include name="test_getUserByName"/>
+          <include name="test_updateUserByName"/>
+          <include name="test_logoutUser"/>
           <include name="setup"/>
+          <include name="test_createUser"/>
+          <include name="test_loginUser"/>
+          <include name="test_deleteUserByName"/>
         </methods>
       </class> <!-- api.tests.UserTests2 -->
+      <class name="api.tests.UserTests">
+        <methods>
+          <include name="test_loginUser"/>
+          <include name="test_deleteUserByName"/>
+          <include name="test_createUser"/>
+          <include name="setup"/>
+          <include name="test_logoutUser"/>
+          <include name="test_updateUserByName"/>
+        </methods>
+      </class> <!-- api.tests.UserTests -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

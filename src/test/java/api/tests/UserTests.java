@@ -80,7 +80,7 @@ public class UserTests {
         Assert.assertEquals(type, "unknown", "Expected type is 'unknown'.");
         
      // Path to JSON schema
-        String jsonFilePath = "C:\\Users\\ubaidullah.bawa\\eclipse-workspace\\PetStoreAutomation\\test-data\\postUserSchema.json";
+        String jsonFilePath = System.getProperty("user.dir") +"\\test-data\\postUserSchema.json";
         File schemaFile = new File(jsonFilePath);
 
         // Schema validation
@@ -186,7 +186,7 @@ public class UserTests {
 	        Assert.assertTrue(resTime >= 200 && resTime <= 5000, "Response time is outside the expected range (200-2000ms).");
 	    	Assert.assertEquals(contentType, "application/json", "Expected Content-Type is application/json.");
 	        
-	        String jsonFilePath = "C:\\Users\\ubaidullah.bawa\\eclipse-workspace\\PetStoreAutomation\\test-data\\putUserSchema.json";
+	        String jsonFilePath = System.getProperty("user.dir") +"\\test-data\\putUserSchema.json";
 	        File file = new File(jsonFilePath);
 	
 	        putUserResponse.then().body(JsonSchemaValidator.matchesJsonSchema(file));
@@ -217,7 +217,7 @@ public class UserTests {
 
 		Assert.assertEquals(deleteUserResponse.getStatusCode(), 200);
 		// Path to JSON schema
-        String jsonFilePath = "C:\\Users\\ubaidullah.bawa\\eclipse-workspace\\PetStoreAutomation\\test-data\\deleteUserSchema.json";
+        String jsonFilePath = System.getProperty("user.dir") +"\\test-data\\deleteUserSchema.json";
         File schemaFile = new File(jsonFilePath);
 
         // Schema validation
@@ -263,7 +263,7 @@ public class UserTests {
 	        Assert.assertTrue(message.contains("logged in"), "Message should contain 'logged in'");
 	    
 	        // Load JSON schema file and validate response
-	        String jsonFilePath = "C:\\Users\\ubaidullah.bawa\\eclipse-workspace\\PetStoreAutomation\\test-data\\getUserLoginSchema.json";
+	        String jsonFilePath = System.getProperty("user.dir") +"\\test-data\\getUserLoginSchema.json";
 	        File file = new File(jsonFilePath);
 	        logger.info("Asserting that the response matches the JSON schema from {}", jsonFilePath);
 	        getLoginUserResponse.then().assertThat().body(JsonSchemaValidator.matchesJsonSchema(file));
@@ -317,7 +317,7 @@ public class UserTests {
 	        Assert.assertEquals(type, "unknown", "Expected type is 'unknown'.");
 	    
 	        // Validate JSON schema
-	        String jsonFilePath = "C:\\Users\\ubaidullah.bawa\\eclipse-workspace\\PetStoreAutomation\\test-data\\getUserLogoutSchema.json";
+	        String jsonFilePath = System.getProperty("user.dir") +"\\test-data\\getUserLogoutSchema.json";
 	        File file = new File(jsonFilePath);
 	        getLogoutUsertResponse.then().assertThat().body(JsonSchemaValidator.matchesJsonSchema(file));
 	    
