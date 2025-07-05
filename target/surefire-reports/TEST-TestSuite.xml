@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="23.078" tests="21" errors="0" skipped="3" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="15.092" tests="20" errors="0" skipped="2" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Users\ubaidullah.bawa\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.7.v20250502-0916\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\ubaidullah.bawa\AppData\Local\Temp\surefire16861487289888653629\surefirebooter-20250705211545855_3.jar C:\Users\ubaidullah.bawa\AppData\Local\Temp\surefire16861487289888653629 2025-07-05T21-15-45_322-jvmRun1 surefire-20250705211545855_1tmp surefire_0-20250705211545855_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\ubaidullah.bawa\AppData\Local\Temp\surefire1696680107837478960\surefirebooter-20250705235459856_3.jar C:\Users\ubaidullah.bawa\AppData\Local\Temp\surefire1696680107837478960 2025-07-05T23-54-59_733-jvmRun1 surefire-20250705235459856_1tmp surefire_0-20250705235459856_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\ubaidullah.bawa\eclipse-workspace\PetStoreAutomation\target\test-classes;C:\Users\ubaidullah.bawa\eclipse-workspace\PetStoreAutomation\target\classes;C:\Users\ubaidullah.bawa\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\ubaidullah.bawa\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\ubaidullah.bawa\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\ubaidullah.bawa\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\ubaidullah.bawa\.m2\repository\io\rest-assured\rest-assured\5.5.5\rest-assured-5.5.5.jar;C:\Users\ubaidullah.bawa\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\ubaidullah.bawa\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\ubaidullah.bawa\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\ubaidullah.bawa\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\ubaidullah.bawa\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\ubaidullah.bawa\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\ubaidullah.bawa\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\ubaidullah.bawa\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\ubaidullah.bawa\.m2\repository\io\rest-assured\xml-path\5.5.5\xml-path-5.5.5.jar;C:\Users\ubaidullah.bawa\.m2\repository\io\rest-assured\json-path\5.5.5\json-path-5.5.5.jar;C:\Users\ubaidullah.bawa\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\ubaidullah.bawa\.m2\repository\io\rest-assured\rest-assured-common\5.5.5\rest-assured-common-5.5.5.jar;C:\Users\ubaidullah.bawa\.m2\repository\org\json\json\20250517\json-20250517.jar;C:\Users\ubaidullah.bawa\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\ubaidullah.bawa\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\ubaidullah.bawa\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\ubaidullah.bawa\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\ubaidullah.bawa\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\ubaidullah.bawa\.m2\repository\org\apache\poi\poi\5.4.1\poi-5.4.1.jar;C:\Users\ubaidullah.bawa\.m2\repository\commons-codec\commons-codec\1.18.0\commons-codec-1.18.0.jar;C:\Users\ubaidullah.bawa\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\ubaidullah.bawa\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\ubaidullah.bawa\.m2\repository\commons-io\commons-io\2.18.0\commons-io-2.18.0.jar;C:\Users\ubaidullah.bawa\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\ubaidullah.bawa\.m2\repository\org\apache\poi\poi-ooxml\5.4.1\poi-ooxml-5.4.1.jar;C:\Users\ubaidullah.bawa\.m2\repository\org\apache\poi\poi-ooxml-lite\5.4.1\poi-ooxml-lite-5.4.1.jar;C:\Users\ubaidullah.bawa\.m2\repository\org\apache\xmlbeans\xmlbeans\5.3.0\xmlbeans-5.3.0.jar;C:\Users\ubaidullah.bawa\.m2\repository\org\apache\commons\commons-compress\1.27.1\commons-compress-1.27.1.jar;C:\Users\ubaidullah.bawa\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\ubaidullah.bawa\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\ubaidullah.bawa\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\ubaidullah.bawa\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\ubaidullah.bawa\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\ubaidullah.bawa\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\ubaidullah.bawa\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\ubaidullah.bawa\.m2\repository\com\github\scribejava\scribejava-apis\8.3.3\scribejava-apis-8.3.3.jar;C:\Users\ubaidullah.bawa\.m2\repository\com\github\scribejava\scribejava-core\8.3.3\scribejava-core-8.3.3.jar;C:\Users\ubaidullah.bawa\.m2\repository\com\github\scribejava\scribejava-java8\8.3.3\scribejava-java8-8.3.3.jar;C:\Users\ubaidullah.bawa\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.0\jackson-databind-2.14.0.jar;C:\Users\ubaidullah.bawa\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.0\jackson-annotations-2.14.0.jar;C:\Users\ubaidullah.bawa\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.0\jackson-core-2.14.0.jar;C:\Users\ubaidullah.bawa\.m2\repository\io\rest-assured\json-schema-validator\5.5.5\json-schema-validator-5.5.5.jar;C:\Users\ubaidullah.bawa\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\ubaidullah.bawa\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\ubaidullah.bawa\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\ubaidullah.bawa\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\ubaidullah.bawa\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\ubaidullah.bawa\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\ubaidullah.bawa\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\ubaidullah.bawa\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\ubaidullah.bawa\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\ubaidullah.bawa\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\ubaidullah.bawa\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\ubaidullah.bawa\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\ubaidullah.bawa\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\ubaidullah.bawa\.m2\repository\com\google\guava\guava\33.2.1-jre\guava-33.2.1-jre.jar;C:\Users\ubaidullah.bawa\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\ubaidullah.bawa\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\ubaidullah.bawa\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\ubaidullah.bawa\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\ubaidullah.bawa\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\ubaidullah.bawa\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar;C:\Users\ubaidullah.bawa\.m2\repository\org\apache\logging\log4j\log4j-core\2.24.3\log4j-core-2.24.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -32,7 +32,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\ubaidullah.bawa\AppData\Local\Temp\surefire16861487289888653629\surefirebooter-20250705211545855_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\ubaidullah.bawa\AppData\Local\Temp\surefire1696680107837478960\surefirebooter-20250705235459856_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.7+6-LTS"/>
@@ -61,64 +61,64 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="test_DDT_createUser[2010, testuser1, John, Canedy, a@gmail.com, test@1, 8687809765](1)" classname="api.tests.DDTests" time="2.941">
-    <system-out><![CDATA[21:15:51.483 [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ****************************************************************
-21:15:51.483 [TestNG-test-Test-2] INFO  api.tests.UserTests - ****************************************************************
-21:15:51.491 [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ***********<<<<<Starting test_createUser>>>>>*******************
-21:15:51.491 [TestNG-test-Test-2] INFO  api.tests.UserTests - ***********<<<<<Starting test_createUser>>>>>*******************
-21:15:51.491 [TestNG-test-Test-3] INFO  api.tests.UserTests2 - Sending POST request to create a new user
-21:15:51.491 [TestNG-test-Test-2] INFO  api.tests.UserTests - Sending POST request to create a new user
-21:15:51.504 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-21:15:51.509 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-21:15:52.516 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-21:15:52.517 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-21:15:52.548 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-21:15:52.549 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-21:15:52.630 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-21:15:52.631 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-21:15:52.658 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-21:15:52.660 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-21:15:52.686 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-21:15:52.688 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-21:15:52.708 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-21:15:52.710 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-21:15:52.737 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-21:15:52.738 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-21:15:52.761 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-21:15:52.762 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-21:15:52.781 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-21:15:52.782 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-21:15:52.800 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-21:15:52.802 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-21:15:52.821 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-21:15:52.822 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-21:15:52.848 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-21:15:52.848 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-21:15:52.864 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-21:15:52.865 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-21:15:52.885 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-21:15:52.885 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-21:15:52.899 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-21:15:52.901 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-21:15:52.916 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-21:15:52.918 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-21:15:52.936 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-21:15:52.937 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-21:15:52.953 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-21:15:52.954 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-21:15:52.969 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-21:15:52.970 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-21:15:53.007 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-21:15:53.008 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-21:15:53.023 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-21:15:53.024 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-21:15:53.043 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-21:15:53.044 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-21:15:53.069 [TestNG-test-Test-1] INFO  api.tests.DDTests - ***************Starting DDT create user tests***************
-21:15:55.900 [TestNG-test-Test-3] INFO  api.tests.UserTests2 - Asserting response field types
-21:15:55.900 [TestNG-test-Test-2] INFO  api.tests.UserTests - Asserting response field types
+  <testcase name="test_DDT_createUser[2010, testuser1, John, Canedy, a@gmail.com, test@1, 8687809765](1)" classname="api.tests.DDTests" time="2.035">
+    <system-out><![CDATA[23:55:02.276 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:55:02.276 [TestNG-test-Test-2] INFO  api.tests.UserTests - ****************************************************************
+23:55:02.276 [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ****************************************************************
+23:55:02.279 [TestNG-test-Test-2] INFO  api.tests.UserTests - ***********<<<<<Starting test_createUser>>>>>*******************
+23:55:02.279 [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ***********<<<<<Starting test_createUser>>>>>*******************
+23:55:02.279 [TestNG-test-Test-2] INFO  api.tests.UserTests - Sending POST request to create a new user
+23:55:02.279 [TestNG-test-Test-3] INFO  api.tests.UserTests2 - Sending POST request to create a new user
+23:55:02.283 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:55:02.893 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:55:02.894 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:55:02.920 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:55:02.921 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:55:02.977 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:55:02.978 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:55:03.003 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:55:03.004 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:55:03.020 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:55:03.020 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:55:03.034 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:55:03.035 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:55:03.047 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:55:03.048 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:55:03.061 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:55:03.062 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:55:03.074 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:55:03.074 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:55:03.086 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:55:03.087 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:55:03.099 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:55:03.100 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:55:03.115 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:55:03.115 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:55:03.129 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:55:03.129 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:55:03.148 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:55:03.148 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:55:03.161 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:55:03.162 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:55:03.173 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:55:03.174 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:55:03.186 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:55:03.186 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:55:03.198 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:55:03.198 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:55:03.209 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:55:03.210 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:55:03.221 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:55:03.221 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:55:03.233 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:55:03.234 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:55:03.248 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:55:03.249 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:55:03.266 [TestNG-test-Test-1] INFO  api.tests.DDTests - ***************Starting DDT create user tests***************
+23:55:05.270 [TestNG-test-Test-2] INFO  api.tests.UserTests - Asserting response field types
+23:55:05.270 [TestNG-test-Test-3] INFO  api.tests.UserTests2 - Asserting response field types
 HTTP/1.1 200 OK
-Date: Sat, 05 Jul 2025 15:45:55 GMT
+Date: Sat, 05 Jul 2025 18:25:05 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -132,18 +132,18 @@ Server: Jetty(9.2.9.v20150224)
     "type": "unknown",
     "message": "2010"
 }
-21:15:56.002 [TestNG-test-Test-1] INFO  api.tests.DDTests - ***************Finished DDT create user tests***************
+23:55:05.295 [TestNG-test-Test-1] INFO  api.tests.DDTests - ***************Finished DDT create user tests***************
 ]]></system-out>
     <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
 SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="test_DDT_createUser[2011, testuser2, Kim, Kom, b@gmail.com, test@2, 8687809565](2)" classname="api.tests.DDTests" time="0.292">
-    <system-out><![CDATA[21:15:57.009 [TestNG-test-Test-2] INFO  api.tests.UserTests - ***** Starting test_getUserByName *****
-21:15:57.009 [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ***** Starting test_getUserByName *****
+  <testcase name="test_DDT_createUser[2011, testuser2, Kim, Kom, b@gmail.com, test@2, 8687809565](2)" classname="api.tests.DDTests" time="0.494">
+    <system-out><![CDATA[23:55:05.898 [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ***** Starting test_getUserByName *****
+23:55:05.898 [TestNG-test-Test-2] INFO  api.tests.UserTests - ***** Starting test_getUserByName *****
 HTTP/1.1 200 OK
-Date: Sat, 05 Jul 2025 15:45:57 GMT
+Date: Sat, 05 Jul 2025 18:25:06 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -157,14 +157,14 @@ Server: Jetty(9.2.9.v20150224)
     "type": "unknown",
     "message": "2011"
 }
-21:15:57.301 [TestNG-test-Test-1] INFO  api.tests.DDTests - ***************Finished DDT create user tests***************
+23:55:06.393 [TestNG-test-Test-1] INFO  api.tests.DDTests - ***************Finished DDT create user tests***************
 ]]></system-out>
   </testcase>
-  <testcase name="test_DDT_createUser[2012, testuser3, Smith, Steve, c@gmail.com, test@3, 8687309765](3)" classname="api.tests.DDTests" time="0.219">
-    <system-out><![CDATA[21:15:58.517 [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ********************************************
-21:15:58.517 [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ***** Starting test_updateUser *****
+  <testcase name="test_DDT_createUser[2012, testuser3, Smith, Steve, c@gmail.com, test@3, 8687309765](3)" classname="api.tests.DDTests" time="0.407">
+    <system-out><![CDATA[23:55:07.074 [TestNG-test-Test-2] INFO  api.tests.UserTests - ********************************************
+23:55:07.075 [TestNG-test-Test-2] INFO  api.tests.UserTests - ***** Starting test_updateUser *****
 HTTP/1.1 200 OK
-Date: Sat, 05 Jul 2025 15:45:58 GMT
+Date: Sat, 05 Jul 2025 18:25:07 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -178,79 +178,54 @@ Server: Jetty(9.2.9.v20150224)
     "type": "unknown",
     "message": "2012"
 }
-21:15:58.735 [TestNG-test-Test-1] INFO  api.tests.DDTests - ***************Finished DDT create user tests***************
+23:55:07.482 [TestNG-test-Test-1] INFO  api.tests.DDTests - ***************Finished DDT create user tests***************
 ]]></system-out>
   </testcase>
-  <testcase name="test_DDT_deleteUsers[testuser1](1)" classname="api.tests.DDTests" time="0.284"/>
-  <testcase name="test_DDT_deleteUsers[testuser2](2)" classname="api.tests.DDTests" time="0.289"/>
-  <testcase name="test_DDT_deleteUsers[testuser3](3)" classname="api.tests.DDTests" time="0.241">
-    <system-out><![CDATA[21:16:02.897 [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ********************************************
-21:16:02.897 [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ******** Starting test_logoutUser***********
-]]></system-out>
-  </testcase>
-  <testcase name="test_createUser" classname="api.tests.UserTests" time="1.001">
-    <system-out><![CDATA[21:15:56.006 [TestNG-test-Test-1] INFO  api.tests.DDTests - ***************Starting DDT create user tests***************
-21:15:57.006 [TestNG-test-Test-2] INFO  api.tests.UserTests - ***** Finished test_createUser *****
-21:15:57.006 [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ***** Finished test_createUser *****
-21:15:57.006 [TestNG-test-Test-2] INFO  api.tests.UserTests - ********************************************
-21:15:57.007 [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ********************************************
-]]></system-out>
-  </testcase>
-  <testcase name="test_getUserByName" classname="api.tests.UserTests" time="1.208">
-    <system-out><![CDATA[21:15:57.304 [TestNG-test-Test-1] INFO  api.tests.DDTests - ***************Starting DDT create user tests***************
-21:15:58.426 [TestNG-test-Test-2] INFO  api.tests.UserTests - Response body: {"id":2034134772,"username":"samantha.haley","firstName":"Erwin","lastName":"Wolff","email":"horace.halvorson@example.com","password":"c2g2d9lyg536","phone":"864-544-6068","userStatus":0}
-21:15:58.426 [TestNG-test-Test-3] INFO  api.tests.UserTests2 - Response body: {"id":588133348,"username":"stacey.buckridge","firstName":"Newton","lastName":"Stiedemann","email":"doretha.wunsch@example.com","password":"8tuyxmwrotew0g","phone":"(638) 272-5941","userStatus":0}
-21:15:58.511 [TestNG-test-Test-2] INFO  api.tests.UserTests - ***** Finished test_getUserByName *****
-]]></system-out>
-  </testcase>
-  <testcase name="test_updateUserByName" classname="api.tests.UserTests" time="1.029">
-    <system-out><![CDATA[21:15:58.753 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-21:15:58.756 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-21:15:58.803 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-21:15:58.803 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-21:15:58.817 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-21:15:58.817 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-21:15:58.840 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-21:15:58.841 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-21:15:59.881 [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ***** Finished test_updateUser *****
-21:15:59.881 [TestNG-test-Test-2] INFO  api.tests.UserTests - ***** Finished test_updateUser *****
-21:15:59.881 [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ********************************************
-21:15:59.881 [TestNG-test-Test-2] INFO  api.tests.UserTests - ********************************************
-]]></system-out>
-  </testcase>
-  <testcase name="test_deleteUserByName" classname="api.tests.UserTests" time="0.0">
+  <testcase name="test_DDT_deleteUsers[testuser1](1)" classname="api.tests.DDTests" time="0.442"/>
+  <testcase name="test_DDT_deleteUsers[testuser2](2)" classname="api.tests.DDTests" time="0.0">
     <skipped message="expected [200] but found [404]"/>
-    <system-out><![CDATA[21:16:01.404 [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ********************************************
-21:16:01.404 [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ********* Starting test_loginUser **********
+    <system-out><![CDATA[23:55:09.274 [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ********************************************
+23:55:09.275 [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ********* Starting test_loginUser **********
 ]]></system-out>
   </testcase>
-  <testcase name="test_deleteUserByName" classname="api.tests.UserTests" time="0.0">
+  <testcase name="test_DDT_deleteUsers[testuser2](3)" classname="api.tests.DDTests" time="0.0">
     <skipped message="expected [200] but found [404]"/>
-    <system-out><![CDATA[HTTP/1.1 404 Not Found
-Date: Sat, 05 Jul 2025 15:46:02 GMT
-Content-Length: 0
-Connection: keep-alive
-Access-Control-Allow-Origin: *
-Access-Control-Allow-Methods: GET, POST, DELETE, PUT
-Access-Control-Allow-Headers: Content-Type, api_key, Authorization
-Server: Jetty(9.2.9.v20150224)
+    <system-out><![CDATA[23:55:10.413 [TestNG-test-Test-2] INFO  api.tests.UserTests - ********************************************
+23:55:10.413 [TestNG-test-Test-2] INFO  api.tests.UserTests - ******** Starting test_logoutUser***********
 ]]></system-out>
   </testcase>
-  <testcase name="test_deleteUserByName" classname="api.tests.UserTests" time="0.0">
-    <skipped message="expected [200] but found [404]"/>
-    <system-out><![CDATA[HTTP/1.1 404 Not Found
-Date: Sat, 05 Jul 2025 15:46:04 GMT
-Content-Length: 0
-Connection: keep-alive
-Access-Control-Allow-Origin: *
-Access-Control-Allow-Methods: GET, POST, DELETE, PUT
-Access-Control-Allow-Headers: Content-Type, api_key, Authorization
-Server: Jetty(9.2.9.v20150224)
+  <testcase name="test_DDT_deleteUsers[testuser2](4)" classname="api.tests.DDTests" time="1.085"/>
+  <testcase name="test_DDT_deleteUsers[testuser3](5)" classname="api.tests.DDTests" time="1.092"/>
+  <testcase name="test_createUser" classname="api.tests.UserTests" time="0.6">
+    <system-out><![CDATA[23:55:05.297 [TestNG-test-Test-1] INFO  api.tests.DDTests - ***************Starting DDT create user tests***************
+23:55:05.896 [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ***** Finished test_createUser *****
+23:55:05.896 [TestNG-test-Test-2] INFO  api.tests.UserTests - ***** Finished test_createUser *****
+23:55:05.897 [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ********************************************
+23:55:05.897 [TestNG-test-Test-2] INFO  api.tests.UserTests - ********************************************
 ]]></system-out>
   </testcase>
-  <testcase name="test_deleteUserByName" classname="api.tests.UserTests" time="1.437">
+  <testcase name="test_getUserByName" classname="api.tests.UserTests" time="0.002">
+    <system-out><![CDATA[23:55:07.072 [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ********************************************
+23:55:07.073 [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ***** Starting test_updateUser *****
+23:55:07.073 [TestNG-test-Test-2] INFO  api.tests.UserTests - ***** Finished test_getUserByName *****
+]]></system-out>
+  </testcase>
+  <testcase name="test_updateUserByName" classname="api.tests.UserTests" time="0.639">
+    <system-out><![CDATA[23:55:07.486 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:55:07.486 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:55:07.497 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:55:07.497 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:55:07.507 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:55:07.507 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:55:07.520 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:55:07.520 [TestNG-test-Test-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:55:08.167 [TestNG-test-Test-2] INFO  api.tests.UserTests - ***** Finished test_updateUser *****
+23:55:08.168 [TestNG-test-Test-2] INFO  api.tests.UserTests - ********************************************
+]]></system-out>
+  </testcase>
+  <testcase name="test_deleteUserByName" classname="api.tests.UserTests" time="0.636">
     <system-out><![CDATA[HTTP/1.1 200 OK
-Date: Sat, 05 Jul 2025 15:46:05 GMT
+Date: Sat, 05 Jul 2025 18:25:09 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -262,44 +237,41 @@ Server: Jetty(9.2.9.v20150224)
 {
     "code": 200,
     "type": "unknown",
-    "message": "samantha.haley"
+    "message": "elisha.torp"
 }
 ]]></system-out>
   </testcase>
-  <testcase name="test_loginUser" classname="api.tests.UserTests" time="1.566">
-    <system-out><![CDATA[21:16:05.702 [TestNG-test-Test-2] INFO  api.tests.UserTests - ********************************************
-21:16:05.702 [TestNG-test-Test-2] INFO  api.tests.UserTests - ********* Starting test_loginUser **********
-21:16:07.266 [TestNG-test-Test-2] INFO  api.tests.UserTests - Asserting that the response matches the JSON schema from C:\Users\ubaidullah.bawa\eclipse-workspace\PetStoreAutomation\test-data\getUserLoginSchema.json
-21:16:07.270 [TestNG-test-Test-2] INFO  api.tests.UserTests - ***** Finished test_loginUser***************
-21:16:07.270 [TestNG-test-Test-2] INFO  api.tests.UserTests - ********************************************
+  <testcase name="test_loginUser" classname="api.tests.UserTests" time="0.01">
+    <system-out><![CDATA[23:55:10.403 [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ********************************************
+23:55:10.403 [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ******** Starting test_logoutUser***********
+23:55:10.409 [TestNG-test-Test-2] INFO  api.tests.UserTests - Asserting that the response matches the JSON schema from C:\Users\ubaidullah.bawa\eclipse-workspace\PetStoreAutomation\test-data\getUserLoginSchema.json
+23:55:10.412 [TestNG-test-Test-2] INFO  api.tests.UserTests - ***** Finished test_loginUser***************
+23:55:10.412 [TestNG-test-Test-2] INFO  api.tests.UserTests - ********************************************
 ]]></system-out>
   </testcase>
-  <testcase name="test_logoutUser" classname="api.tests.UserTests" time="1.439">
-    <system-out><![CDATA[21:16:07.271 [TestNG-test-Test-2] INFO  api.tests.UserTests - ********************************************
-21:16:07.271 [TestNG-test-Test-2] INFO  api.tests.UserTests - ******** Starting test_logoutUser***********
-21:16:08.708 [TestNG-test-Test-2] INFO  api.tests.UserTests - ***** Finished test_logoutUser *****
-21:16:08.708 [TestNG-test-Test-2] INFO  api.tests.UserTests - ************************************
+  <testcase name="test_logoutUser" classname="api.tests.UserTests" time="0.705">
+    <system-out><![CDATA[23:55:11.511 [TestNG-test-Test-2] INFO  api.tests.UserTests - ***** Finished test_logoutUser *****
+23:55:11.511 [TestNG-test-Test-2] INFO  api.tests.UserTests - ************************************
 ]]></system-out>
   </testcase>
-  <testcase name="test_createUser" classname="api.tests.UserTests2" time="1.001"/>
-  <testcase name="test_getUserByName" classname="api.tests.UserTests2" time="0.006">
-    <system-out><![CDATA[21:15:58.512 [TestNG-test-Test-2] INFO  api.tests.UserTests - ********************************************
-21:15:58.513 [TestNG-test-Test-2] INFO  api.tests.UserTests - ***** Starting test_updateUser *****
-21:15:58.514 [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ***** Finished test_getUserByName *****
+  <testcase name="test_createUser" classname="api.tests.UserTests2" time="0.6"/>
+  <testcase name="test_getUserByName" classname="api.tests.UserTests2" time="0.678">
+    <system-out><![CDATA[23:55:06.395 [TestNG-test-Test-1] INFO  api.tests.DDTests - ***************Starting DDT create user tests***************
+23:55:07.015 [TestNG-test-Test-3] INFO  api.tests.UserTests2 - Response body: {"id":618318877,"username":"buster.lehner","firstName":"Lianne","lastName":"DuBuque","email":"etta.goyette@example.com","password":"dq9x2ebu9u0tm","phone":"1-887-367-5929","userStatus":0}
+23:55:07.020 [TestNG-test-Test-2] INFO  api.tests.UserTests - Response body: {"id":511263199,"username":"elisha.torp","firstName":"Cyril","lastName":"Adams","email":"chris.hirthe@example.com","password":"et7a2wc5x","phone":"1-754-786-1729","userStatus":0}
+23:55:07.071 [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ***** Finished test_getUserByName *****
 ]]></system-out>
   </testcase>
-  <testcase name="test_updateUserByName" classname="api.tests.UserTests2" time="1.031"/>
-  <testcase name="test_deleteUserByName" classname="api.tests.UserTests2" time="1.239">
-    <system-out><![CDATA[HTTP/1.1 404 Not Found
-Date: Sat, 05 Jul 2025 15:46:01 GMT
-Content-Length: 0
-Connection: keep-alive
-Access-Control-Allow-Origin: *
-Access-Control-Allow-Methods: GET, POST, DELETE, PUT
-Access-Control-Allow-Headers: Content-Type, api_key, Authorization
-Server: Jetty(9.2.9.v20150224)
+  <testcase name="test_updateUserByName" classname="api.tests.UserTests2" time="0.012">
+    <system-out><![CDATA[23:55:08.178 [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ***** Finished test_updateUser *****
+23:55:08.179 [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ********************************************
+]]></system-out>
+  </testcase>
+  <testcase name="test_deleteUserByName" classname="api.tests.UserTests2" time="0.012">
+    <system-out><![CDATA[23:55:09.258 [TestNG-test-Test-2] INFO  api.tests.UserTests - ********************************************
+23:55:09.258 [TestNG-test-Test-2] INFO  api.tests.UserTests - ********* Starting test_loginUser **********
 HTTP/1.1 200 OK
-Date: Sat, 05 Jul 2025 15:46:01 GMT
+Date: Sat, 05 Jul 2025 18:25:09 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -311,19 +283,19 @@ Server: Jetty(9.2.9.v20150224)
 {
     "code": 200,
     "type": "unknown",
-    "message": "stacey.buckridge"
+    "message": "buster.lehner"
 }
 ]]></system-out>
   </testcase>
-  <testcase name="test_loginUser" classname="api.tests.UserTests2" time="0.052">
-    <system-out><![CDATA[21:16:02.892 [TestNG-test-Test-3] INFO  api.tests.UserTests2 - Asserting that the response matches the JSON schema from C:\Users\ubaidullah.bawa\eclipse-workspace\PetStoreAutomation\test-data\getUserLoginSchema.json
-21:16:02.896 [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ***** Finished test_loginUser***************
-21:16:02.896 [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ********************************************
+  <testcase name="test_loginUser" classname="api.tests.UserTests2" time="0.68">
+    <system-out><![CDATA[23:55:10.400 [TestNG-test-Test-3] INFO  api.tests.UserTests2 - Asserting that the response matches the JSON schema from C:\Users\ubaidullah.bawa\eclipse-workspace\PetStoreAutomation\test-data\getUserLoginSchema.json
+23:55:10.402 [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ***** Finished test_loginUser***************
+23:55:10.402 [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ********************************************
 ]]></system-out>
   </testcase>
-  <testcase name="test_logoutUser" classname="api.tests.UserTests2" time="0.041">
-    <system-out><![CDATA[21:16:04.306 [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ***** Finished test_logoutUser *****
-21:16:04.306 [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ************************************
+  <testcase name="test_logoutUser" classname="api.tests.UserTests2" time="0.693">
+    <system-out><![CDATA[23:55:11.495 [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ***** Finished test_logoutUser *****
+23:55:11.495 [TestNG-test-Test-3] INFO  api.tests.UserTests2 - ************************************
 ]]></system-out>
   </testcase>
 </testsuite>
